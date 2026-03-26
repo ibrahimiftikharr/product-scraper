@@ -23,6 +23,10 @@ Playwright scraper for BestBuyMedical orders page (logged-in). Logs in, scrapes 
 
 * Logged-in scraping (handles login flow).
 
+* Optional page-range scraping via positional CLI args (`start_page end_page`).
+
+* Per-instance artifact files (CSV, checkpoint, and log) for parallel runs.
+
 * Robust DOM extraction inside a single `page.evaluate(...)`.
 
 * Deduplication across the entire run using a combined hash key.
@@ -62,6 +66,50 @@ python -m playwright install chromium
 
 ```bash
 python bestbuymedical_scraper.py
+```
+
+### Run with page ranges (parallel instances)
+
+```bash
+python bestbuymedical_scraper.py 1 212
+python bestbuymedical_scraper.py 213 425
+python bestbuymedical_scraper.py 426 637
+python bestbuymedical_scraper.py 638 850
+```
+
+PM2 examples:
+
+```bash
+pm2 start bestbuymedical_scraper.py --name "scraper-1" --interpreter python -- 1 212
+pm2 start bestbuymedical_scraper.py --name "scraper-2" --interpreter python -- 213 425
+```
+
+Each range run produces independent files, for example:
+
+* `bestBuy_products_1_212.csv`
+* `bestbuy_scraper_checkpoint_1_212.json`
+* `bestbuy_scraper_1_212.log`
+
+Each scraper instance sends a completion email with its CSV attached.
+
+## Manual Post-Processing
+
+Merge all CSV files in the current folder:
+
+```bash
+python merge_csv_files.py
+```
+
+Optional parameters:
+
+```bash
+python merge_csv_files.py --output bestBuy_products_merged.csv --pattern "bestBuy_products_*.csv"
+```
+
+Convert CSV to JSON manually:
+
+```bash
+python csv_to_json_transformer.py bestBuy_products_merged.csv
 ```
 
 ## Notes

@@ -6,15 +6,14 @@ import hashlib
 import json
 import shutil
 import sys
-import glob
 import platform
+import argparse
 from datetime import datetime
 from urllib.parse import urljoin
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
 import requests
 from email_notifier import notify_admin
 from format_validator import check_page_format_deviation, send_format_deviation_alert, validate_price_parsing
-from csv_to_json_transformer import transform_csv_to_json
 
 from dotenv import load_dotenv
 load_dotenv()   # loads .env into os.environ
@@ -57,22 +56,14 @@ class TeeStream:
             return False
 
 
-def start_console_file_logging(log_dir=None):
+def start_console_file_logging(log_filename, log_dir=None):
     """Mirror stdout/stderr to a single fixed log file and return stream state."""
     if log_dir is None:
         log_dir = os.getcwd()
 
     os.makedirs(log_dir, exist_ok=True)
 
-    # Keep only one actively used log filename for all runs.
-    log_path = os.path.join(log_dir, "bestbuy_scraper.log")
-
-    # Cleanup legacy timestamped logs from previous implementation.
-    for old_log in glob.glob(os.path.join(log_dir, "bestbuy_scraper_run_*.log")):
-        try:
-            os.remove(old_log)
-        except Exception:
-            pass
+    log_path = os.path.join(log_dir, log_filename)
 
     # Line buffering keeps logs visible in near-real-time in both console and file.
     log_file = open(log_path, "w", encoding="utf-8", buffering=1)
@@ -161,6 +152,26 @@ EXCLUDED_SPEC_KEYS = {"manufacturer name", "manufacturer number", "reference num
 MAX_PRODUCTS_TO_SAVE = None  # no row cap: scrape all available products
 MAX_PAGE_NAV_RETRIES = 3
 CHECKPOINT_FILE = "bestbuy_scraper_checkpoint.json"
+
+
+def build_run_artifact_names(start_page, end_page):
+    """Build stable, range-aware artifact filenames for each scraper instance."""
+    if start_page == 1 and end_page is None:
+        return {
+            "suffix": "full",
+            "csv": "bestBuy_products.csv",
+            "log": "bestbuy_scraper.log",
+            "checkpoint": CHECKPOINT_FILE,
+        }
+
+    end_token = "last" if end_page is None else str(end_page)
+    suffix = f"{start_page}_{end_token}"
+    return {
+        "suffix": suffix,
+        "csv": f"bestBuy_products_{suffix}.csv",
+        "log": f"bestbuy_scraper_{suffix}.log",
+        "checkpoint": f"bestbuy_scraper_checkpoint_{suffix}.json",
+    }
 
 
 def resolve_artifact_copy_dir(script_dir):
@@ -855,10 +866,10 @@ def make_product_id(prod):
     return "HASH:" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
 
 
-def main(output_csv):
+def main(output_csv, checkpoint_filename, start_page=1, end_page=None):
     """Run the full scrape: login, search, paginate, enrich, validate, write CSV."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    checkpoint_path = os.path.join(script_dir, CHECKPOINT_FILE)
+    checkpoint_path = os.path.join(script_dir, checkpoint_filename)
     checkpoint = load_checkpoint(checkpoint_path)
 
     resume_mode = bool(checkpoint and os.path.exists(output_csv))
@@ -1012,7 +1023,7 @@ def main(output_csv):
         total_rows_saved = count_existing_csv_rows(output_csv) if resume_mode else 0
         pages_scraped = int((checkpoint or {}).get("pages_scraped", 0)) if resume_mode else 0
         write_header_first_time = not os.path.exists(output_csv) or os.path.getsize(output_csv) == 0
-        page_num = int((checkpoint or {}).get("next_page", 1)) if resume_mode else 1
+        page_num = int((checkpoint or {}).get("next_page", start_page)) if resume_mode else start_page
         # Reuse one detail page for all More Info navigation to reduce overhead.
         detail_page = context.new_page()
 
@@ -1022,7 +1033,7 @@ def main(output_csv):
         all_deviations = []
         hit_product_limit = False
 
-        if resume_mode and page_num > 1:
+        if page_num > 1:
             jumped = jump_to_page(page, page_num)
             if not jumped:
                 msg = f"Failed to resume at page {page_num}; stopping to avoid bad data alignment."
@@ -1037,6 +1048,10 @@ def main(output_csv):
 
         # Step 5: Process result pages until no next page or temporary row limit hit.
         while True:
+            if end_page is not None and page_num > end_page:
+                print(f"Reached requested end page ({end_page}). Stopping.")
+                break
+
             print(f"\n-------------Page#{page_num}----------------")
             dismiss_cookie_banner(page)
 
@@ -1162,6 +1177,10 @@ def main(output_csv):
             #     print("🧪 Test mode: stopping after 5 pages.")
             #     break
             # Stop naturally when no next page is available.
+            if end_page is not None and page_num >= end_page:
+                print(f"Reached requested end page ({end_page}). Stopping.")
+                break
+
             nxt = has_next_page(page)
             if not nxt:
                 print("No more pages (Next disabled or not found). Stopping.")
@@ -1223,8 +1242,8 @@ def main(output_csv):
         print(f"\nFinished. Pages scraped: {pages_scraped}, total rows saved: {total_rows_saved}")
         print(f"Duplicates skipped across run: {duplicates_skipped}")
 
-        # If run reached natural end, clear checkpoint to mark completion.
-        if not has_next_page(page):
+        # Clear checkpoint when a full run ends naturally or a requested range finishes.
+        if (end_page is not None and page_num >= end_page) or not has_next_page(page):
             clear_checkpoint(checkpoint_path)
         
         # Send alert if format deviations were detected (no logs)
@@ -1239,17 +1258,26 @@ def main(output_csv):
         browser.close()
         return output_csv
 
-def run_scraper():
+def run_scraper(start_page=1, end_page=None):
     """Wrapper for one full run, plus post-run notifications and local copy."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     artifact_copy_dir = resolve_artifact_copy_dir(script_dir)
+    artifact_names = build_run_artifact_names(start_page, end_page)
 
-    log_path, log_file, original_stdout, original_stderr = start_console_file_logging(log_dir=script_dir)
+    log_path, log_file, original_stdout, original_stderr = start_console_file_logging(
+        log_filename=artifact_names["log"],
+        log_dir=script_dir,
+    )
 
-    output_csv = f"bestBuy_products.csv"
+    output_csv = artifact_names["csv"]
     try:
         # Run main scraping routine and get produced CSV path.
-        scraped_file = main(output_csv)
+        scraped_file = main(
+            output_csv=output_csv,
+            checkpoint_filename=artifact_names["checkpoint"],
+            start_page=start_page,
+            end_page=end_page,
+        )
 
         if scraped_file and os.path.exists(scraped_file):
             # API upload is temporarily disabled for now.
@@ -1269,21 +1297,13 @@ def run_scraper():
             except Exception as e:
                 print(f"⚠️ Could not save local CSV copy to artifact directory: {e}")
 
-            # Auto-run CSV -> JSON transformation after CSV is generated.
-            transformed_json_path = None
-            try:
-                transformed_json_path = transform_csv_to_json(scraped_file, copy_to_downloads=False)
-                print(f"✅ Product specifications JSON generated: {transformed_json_path}")
-
-                json_copy_path = os.path.join(artifact_copy_dir, os.path.basename(transformed_json_path))
-                shutil.copy2(transformed_json_path, json_copy_path)
-                print(f"✅ JSON copy saved to: {json_copy_path}")
-            except Exception as e:
-                print(f"⚠️ CSV->JSON transformation failed: {e}")
-
             notify_admin(
-                subject="Scraper Finished",
-                body="Here’s the CSV from today’s run.",
+                subject=f"Scraper Finished [{artifact_names['suffix']}]",
+                body=(
+                    f"Scraping completed for page range {start_page}"
+                    f" to {'last' if end_page is None else end_page}.\n"
+                    f"Output file: {os.path.basename(scraped_file)}"
+                ),
                 attachments=[scraped_file]   # attach the generated CSV
             )
             print("✅ Email sent with CSV attached.")
@@ -1300,5 +1320,36 @@ def run_scraper():
             print(f"⚠️ Could not copy run log to artifact directory: {e}")
 
 
+def parse_args():
+    """Parse optional start/end page positional arguments for sharded runs."""
+    parser = argparse.ArgumentParser(
+        description="Scrape BestBuyMedical products with optional page range."
+    )
+    parser.add_argument(
+        "start_page",
+        nargs="?",
+        type=int,
+        default=1,
+        help="Start page number (default: 1)",
+    )
+    parser.add_argument(
+        "end_page",
+        nargs="?",
+        type=int,
+        default=None,
+        help="End page number inclusive (default: scrape to last page)",
+    )
+    args = parser.parse_args()
+
+    if args.start_page < 1:
+        parser.error("start_page must be >= 1")
+
+    if args.end_page is not None and args.end_page < args.start_page:
+        parser.error("end_page must be >= start_page")
+
+    return args
+
+
 if __name__ == "__main__":
-    run_scraper()
+    cli_args = parse_args()
+    run_scraper(start_page=cli_args.start_page, end_page=cli_args.end_page)

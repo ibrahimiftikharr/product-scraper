@@ -1,0 +1,1618 @@
+📝 Logging to file: C:\Users\PMY\Pictures\Company Work\BestBuy Scraper Task\Best-Buy-Scraper\bestbuy_scraper_213_425.log
+Opening login page...
+Filling credentials...
+Clicking Login...
+Login appears successful (Home delivery orders found).
+Reached order.html page.
+Clearing search keyword (no filter)...
+Products appear: found 20 product block(s).
+Products Found and Scraping started
+Resuming scrape at page 213...
+
+-------------Page#213----------------
+Proceeding: detected 20 product block(s) on page 213.
+====== PRODUCT # 1 --- SKU=BRD 293 ======
+[Page 213 | Product 1 | SKU=BRD 293] ..listing data => price=$476.96, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 1 | SKU=BRD 293] ..no more info link on card; specs left empty
+[Page 213 | Product 1 | SKU=BRD 293] ..normalized price=$476.96, mapped stock status=Long Lead Time
+[Page 213 | Product 1 | SKU=BRD 293] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 32101 ======
+[Page 213 | Product 2 | SKU=BRD 32101] ..listing data => price=$218.79, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 2 | SKU=BRD 32101] ..no more info link on card; specs left empty
+[Page 213 | Product 2 | SKU=BRD 32101] ..normalized price=$218.79, mapped stock status=Long Lead Time
+[Page 213 | Product 2 | SKU=BRD 32101] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 32301 ======
+[Page 213 | Product 3 | SKU=BRD 32301] ..listing data => price=$85.42, status=In Stock, discontinued=False, heavy_item=False
+[Page 213 | Product 3 | SKU=BRD 32301] ..no more info link on card; specs left empty
+[Page 213 | Product 3 | SKU=BRD 32301] ..normalized price=$85.42, mapped stock status=In Stock
+[Page 213 | Product 3 | SKU=BRD 32301] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 33301 ======
+[Page 213 | Product 4 | SKU=BRD 33301] ..listing data => price=$85.94, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 4 | SKU=BRD 33301] ..no more info link on card; specs left empty
+[Page 213 | Product 4 | SKU=BRD 33301] ..normalized price=$85.94, mapped stock status=Long Lead Time
+[Page 213 | Product 4 | SKU=BRD 33301] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 33305 ======
+[Page 213 | Product 5 | SKU=BRD 33305] ..listing data => price=$100.43, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 5 | SKU=BRD 33305] ..no more info link on card; specs left empty
+[Page 213 | Product 5 | SKU=BRD 33305] ..normalized price=$100.43, mapped stock status=Long Lead Time
+[Page 213 | Product 5 | SKU=BRD 33305] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 33416 ======
+[Page 213 | Product 6 | SKU=BRD 33416] ..listing data => price=$279.81, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 6 | SKU=BRD 33416] ..no more info link on card; specs left empty
+[Page 213 | Product 6 | SKU=BRD 33416] ..normalized price=$279.81, mapped stock status=Long Lead Time
+[Page 213 | Product 6 | SKU=BRD 33416] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 33418 ======
+[Page 213 | Product 7 | SKU=BRD 33418] ..listing data => price=$240.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 7 | SKU=BRD 33418] ..no more info link on card; specs left empty
+[Page 213 | Product 7 | SKU=BRD 33418] ..normalized price=$240.99, mapped stock status=Long Lead Time
+[Page 213 | Product 7 | SKU=BRD 33418] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 33420 ======
+[Page 213 | Product 8 | SKU=BRD 33420] ..listing data => price=$377.59, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 8 | SKU=BRD 33420] ..no more info link on card; specs left empty
+[Page 213 | Product 8 | SKU=BRD 33420] ..normalized price=$377.59, mapped stock status=Long Lead Time
+[Page 213 | Product 8 | SKU=BRD 33420] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 33422 ======
+[Page 213 | Product 9 | SKU=BRD 33422] ..listing data => price=$333.62, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 9 | SKU=BRD 33422] ..no more info link on card; specs left empty
+[Page 213 | Product 9 | SKU=BRD 33422] ..normalized price=$333.62, mapped stock status=Long Lead Time
+[Page 213 | Product 9 | SKU=BRD 33422] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 33424 ======
+[Page 213 | Product 10 | SKU=BRD 33424] ..listing data => price=$217.32, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 10 | SKU=BRD 33424] ..no more info link on card; specs left empty
+[Page 213 | Product 10 | SKU=BRD 33424] ..normalized price=$217.32, mapped stock status=Long Lead Time
+[Page 213 | Product 10 | SKU=BRD 33424] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 33426 ======
+[Page 213 | Product 11 | SKU=BRD 33426] ..listing data => price=$239.53, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 11 | SKU=BRD 33426] ..no more info link on card; specs left empty
+[Page 213 | Product 11 | SKU=BRD 33426] ..normalized price=$239.53, mapped stock status=Long Lead Time
+[Page 213 | Product 11 | SKU=BRD 33426] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 33428 ======
+[Page 213 | Product 12 | SKU=BRD 33428] ..listing data => price=$239.53, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 12 | SKU=BRD 33428] ..no more info link on card; specs left empty
+[Page 213 | Product 12 | SKU=BRD 33428] ..normalized price=$239.53, mapped stock status=Long Lead Time
+[Page 213 | Product 12 | SKU=BRD 33428] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 33614 ======
+[Page 213 | Product 13 | SKU=BRD 33614] ..listing data => price=$192.57, status=In Stock, discontinued=False, heavy_item=False
+[Page 213 | Product 13 | SKU=BRD 33614] ..no more info link on card; specs left empty
+[Page 213 | Product 13 | SKU=BRD 33614] ..normalized price=$192.57, mapped stock status=In Stock
+[Page 213 | Product 13 | SKU=BRD 33614] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 33616 ======
+[Page 213 | Product 14 | SKU=BRD 33616] ..listing data => price=$179.70, status=MFG BO - In Stock Date: 2026-06-01, discontinued=False, heavy_item=False
+[Page 213 | Product 14 | SKU=BRD 33616] ..no more info link on card; specs left empty
+[Page 213 | Product 14 | SKU=BRD 33616] ..normalized price=$179.70, mapped stock status=Out of Stock
+[Page 213 | Product 14 | SKU=BRD 33616] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 33618 ======
+[Page 213 | Product 15 | SKU=BRD 33618] ..listing data => price=$181.68, status=MFG BO - In Stock Date: 2026-06-10, discontinued=False, heavy_item=False
+[Page 213 | Product 15 | SKU=BRD 33618] ..no more info link on card; specs left empty
+[Page 213 | Product 15 | SKU=BRD 33618] ..normalized price=$181.68, mapped stock status=Out of Stock
+[Page 213 | Product 15 | SKU=BRD 33618] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 33620 ======
+[Page 213 | Product 16 | SKU=BRD 33620] ..listing data => price=$169.89, status=MFG BO - In Stock Date: 2026-06-10, discontinued=False, heavy_item=False
+[Page 213 | Product 16 | SKU=BRD 33620] ..no more info link on card; specs left empty
+[Page 213 | Product 16 | SKU=BRD 33620] ..normalized price=$169.89, mapped stock status=Out of Stock
+[Page 213 | Product 16 | SKU=BRD 33620] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 33622 ======
+[Page 213 | Product 17 | SKU=BRD 33622] ..listing data => price=$184.06, status=MFG BO - In Stock Date: 2026-05-18, discontinued=False, heavy_item=False
+[Page 213 | Product 17 | SKU=BRD 33622] ..no more info link on card; specs left empty
+[Page 213 | Product 17 | SKU=BRD 33622] ..normalized price=$184.06, mapped stock status=Out of Stock
+[Page 213 | Product 17 | SKU=BRD 33622] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 33624 ======
+[Page 213 | Product 18 | SKU=BRD 33624] ..listing data => price=$230.29, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 18 | SKU=BRD 33624] ..no more info link on card; specs left empty
+[Page 213 | Product 18 | SKU=BRD 33624] ..normalized price=$230.29, mapped stock status=Long Lead Time
+[Page 213 | Product 18 | SKU=BRD 33624] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 34610 ======
+[Page 213 | Product 19 | SKU=BRD 34610] ..listing data => price=$1,686.93, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 19 | SKU=BRD 34610] ..no more info link on card; specs left empty
+[Page 213 | Product 19 | SKU=BRD 34610] ..normalized price=$1,686.93, mapped stock status=Long Lead Time
+[Page 213 | Product 19 | SKU=BRD 34610] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 34620 ======
+[Page 213 | Product 20 | SKU=BRD 34620] ..listing data => price=$1,785.53, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 213 | Product 20 | SKU=BRD 34620] ..no more info link on card; specs left empty
+[Page 213 | Product 20 | SKU=BRD 34620] ..normalized price=$1,785.53, mapped stock status=Long Lead Time
+[Page 213 | Product 20 | SKU=BRD 34620] ..row prepared for CSV
+
+
+Saved 20 rows from page 213 (total saved: 20).
+
+-------------Page#214----------------
+Proceeding: detected 20 product block(s) on page 214.
+====== PRODUCT # 1 --- SKU=BRD 35301 ======
+[Page 214 | Product 1 | SKU=BRD 35301] ..listing data => price=$77.30, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 1 | SKU=BRD 35301] ..no more info link on card; specs left empty
+[Page 214 | Product 1 | SKU=BRD 35301] ..normalized price=$77.30, mapped stock status=Long Lead Time
+[Page 214 | Product 1 | SKU=BRD 35301] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 35302 ======
+[Page 214 | Product 2 | SKU=BRD 35302] ..listing data => price=$76.82, status=In Stock, discontinued=False, heavy_item=False
+[Page 214 | Product 2 | SKU=BRD 35302] ..no more info link on card; specs left empty
+[Page 214 | Product 2 | SKU=BRD 35302] ..normalized price=$76.82, mapped stock status=In Stock
+[Page 214 | Product 2 | SKU=BRD 35302] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 35303 ======
+[Page 214 | Product 3 | SKU=BRD 35303] ..listing data => price=$76.82, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 3 | SKU=BRD 35303] ..no more info link on card; specs left empty
+[Page 214 | Product 3 | SKU=BRD 35303] ..normalized price=$76.82, mapped stock status=Long Lead Time
+[Page 214 | Product 3 | SKU=BRD 35303] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 35304 ======
+[Page 214 | Product 4 | SKU=BRD 35304] ..listing data => price=$77.30, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 4 | SKU=BRD 35304] ..no more info link on card; specs left empty
+[Page 214 | Product 4 | SKU=BRD 35304] ..normalized price=$77.30, mapped stock status=Long Lead Time
+[Page 214 | Product 4 | SKU=BRD 35304] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 35305 ======
+[Page 214 | Product 5 | SKU=BRD 35305] ..listing data => price=$77.30, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 5 | SKU=BRD 35305] ..no more info link on card; specs left empty
+[Page 214 | Product 5 | SKU=BRD 35305] ..normalized price=$77.30, mapped stock status=Long Lead Time
+[Page 214 | Product 5 | SKU=BRD 35305] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 357 ======
+[Page 214 | Product 6 | SKU=BRD 357] ..listing data => price=$146.30, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 6 | SKU=BRD 357] ..no more info link on card; specs left empty
+[Page 214 | Product 6 | SKU=BRD 357] ..normalized price=$146.30, mapped stock status=Long Lead Time
+[Page 214 | Product 6 | SKU=BRD 357] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 35800 ======
+[Page 214 | Product 7 | SKU=BRD 35800] ..listing data => price=$167.62, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 7 | SKU=BRD 35800] ..no more info link on card; specs left empty
+[Page 214 | Product 7 | SKU=BRD 35800] ..normalized price=$167.62, mapped stock status=Long Lead Time
+[Page 214 | Product 7 | SKU=BRD 35800] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 36104 ======
+[Page 214 | Product 8 | SKU=BRD 36104] ..listing data => price=$272.12, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 8 | SKU=BRD 36104] ..no more info link on card; specs left empty
+[Page 214 | Product 8 | SKU=BRD 36104] ..normalized price=$272.12, mapped stock status=Long Lead Time
+[Page 214 | Product 8 | SKU=BRD 36104] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 36105 ======
+[Page 214 | Product 9 | SKU=BRD 36105] ..listing data => price=$198.11, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 9 | SKU=BRD 36105] ..no more info link on card; specs left empty
+[Page 214 | Product 9 | SKU=BRD 36105] ..normalized price=$198.11, mapped stock status=Long Lead Time
+[Page 214 | Product 9 | SKU=BRD 36105] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 365730 ======
+[Page 214 | Product 10 | SKU=BRD 365730] ..listing data => price=$73.79, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 10 | SKU=BRD 365730] ..no more info link on card; specs left empty
+[Page 214 | Product 10 | SKU=BRD 365730] ..normalized price=$73.79, mapped stock status=Long Lead Time
+[Page 214 | Product 10 | SKU=BRD 365730] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 37301 ======
+[Page 214 | Product 11 | SKU=BRD 37301] ..listing data => price=$73.53, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 11 | SKU=BRD 37301] ..no more info link on card; specs left empty
+[Page 214 | Product 11 | SKU=BRD 37301] ..normalized price=$73.53, mapped stock status=Long Lead Time
+[Page 214 | Product 11 | SKU=BRD 37301] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 37302 ======
+[Page 214 | Product 12 | SKU=BRD 37302] ..listing data => price=$75.54, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 12 | SKU=BRD 37302] ..no more info link on card; specs left empty
+[Page 214 | Product 12 | SKU=BRD 37302] ..normalized price=$75.54, mapped stock status=Long Lead Time
+[Page 214 | Product 12 | SKU=BRD 37302] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 37303 ======
+[Page 214 | Product 13 | SKU=BRD 37303] ..listing data => price=$74.44, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 13 | SKU=BRD 37303] ..no more info link on card; specs left empty
+[Page 214 | Product 13 | SKU=BRD 37303] ..normalized price=$74.44, mapped stock status=Long Lead Time
+[Page 214 | Product 13 | SKU=BRD 37303] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 37304 ======
+[Page 214 | Product 14 | SKU=BRD 37304] ..listing data => price=$75.54, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 14 | SKU=BRD 37304] ..no more info link on card; specs left empty
+[Page 214 | Product 14 | SKU=BRD 37304] ..normalized price=$75.54, mapped stock status=Long Lead Time
+[Page 214 | Product 14 | SKU=BRD 37304] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 37305 ======
+[Page 214 | Product 15 | SKU=BRD 37305] ..listing data => price=$74.44, status=In Stock, discontinued=False, heavy_item=False
+[Page 214 | Product 15 | SKU=BRD 37305] ..no more info link on card; specs left empty
+[Page 214 | Product 15 | SKU=BRD 37305] ..normalized price=$74.44, mapped stock status=In Stock
+[Page 214 | Product 15 | SKU=BRD 37305] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 37506 ======
+[Page 214 | Product 16 | SKU=BRD 37506] ..listing data => price=$161.53, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 16 | SKU=BRD 37506] ..no more info link on card; specs left empty
+[Page 214 | Product 16 | SKU=BRD 37506] ..normalized price=$161.53, mapped stock status=Long Lead Time
+[Page 214 | Product 16 | SKU=BRD 37506] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 37608 ======
+[Page 214 | Product 17 | SKU=BRD 37608] ..listing data => price=$245.35, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 17 | SKU=BRD 37608] ..no more info link on card; specs left empty
+[Page 214 | Product 17 | SKU=BRD 37608] ..normalized price=$245.35, mapped stock status=Long Lead Time
+[Page 214 | Product 17 | SKU=BRD 37608] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 37610 ======
+[Page 214 | Product 18 | SKU=BRD 37610] ..listing data => price=$378.11, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 18 | SKU=BRD 37610] ..no more info link on card; specs left empty
+[Page 214 | Product 18 | SKU=BRD 37610] ..normalized price=$378.11, mapped stock status=Long Lead Time
+[Page 214 | Product 18 | SKU=BRD 37610] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 38008 ======
+[Page 214 | Product 19 | SKU=BRD 38008] ..listing data => price=$352.07, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 19 | SKU=BRD 38008] ..no more info link on card; specs left empty
+[Page 214 | Product 19 | SKU=BRD 38008] ..normalized price=$352.07, mapped stock status=Long Lead Time
+[Page 214 | Product 19 | SKU=BRD 38008] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 38012 ======
+[Page 214 | Product 20 | SKU=BRD 38012] ..listing data => price=$323.02, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 214 | Product 20 | SKU=BRD 38012] ..no more info link on card; specs left empty
+[Page 214 | Product 20 | SKU=BRD 38012] ..normalized price=$323.02, mapped stock status=Long Lead Time
+[Page 214 | Product 20 | SKU=BRD 38012] ..row prepared for CSV
+
+
+Saved 20 rows from page 214 (total saved: 40).
+
+-------------Page#215----------------
+Proceeding: detected 20 product block(s) on page 215.
+====== PRODUCT # 1 --- SKU=BRD 39301 ======
+[Page 215 | Product 1 | SKU=BRD 39301] ..listing data => price=$72.64, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 1 | SKU=BRD 39301] ..no more info link on card; specs left empty
+[Page 215 | Product 1 | SKU=BRD 39301] ..normalized price=$72.64, mapped stock status=Long Lead Time
+[Page 215 | Product 1 | SKU=BRD 39301] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 39302 ======
+[Page 215 | Product 2 | SKU=BRD 39302] ..listing data => price=$73.27, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 2 | SKU=BRD 39302] ..no more info link on card; specs left empty
+[Page 215 | Product 2 | SKU=BRD 39302] ..normalized price=$73.27, mapped stock status=Long Lead Time
+[Page 215 | Product 2 | SKU=BRD 39302] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 39303 ======
+[Page 215 | Product 3 | SKU=BRD 39303] ..listing data => price=$73.27, status=In Stock, discontinued=False, heavy_item=False
+[Page 215 | Product 3 | SKU=BRD 39303] ..no more info link on card; specs left empty
+[Page 215 | Product 3 | SKU=BRD 39303] ..normalized price=$73.27, mapped stock status=In Stock
+[Page 215 | Product 3 | SKU=BRD 39303] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 39304 ======
+[Page 215 | Product 4 | SKU=BRD 39304] ..listing data => price=$73.74, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 4 | SKU=BRD 39304] ..no more info link on card; specs left empty
+[Page 215 | Product 4 | SKU=BRD 39304] ..normalized price=$73.74, mapped stock status=Long Lead Time
+[Page 215 | Product 4 | SKU=BRD 39304] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 39305 ======
+[Page 215 | Product 5 | SKU=BRD 39305] ..listing data => price=$73.74, status=In Stock, discontinued=False, heavy_item=False
+[Page 215 | Product 5 | SKU=BRD 39305] ..no more info link on card; specs left empty
+[Page 215 | Product 5 | SKU=BRD 39305] ..normalized price=$73.74, mapped stock status=In Stock
+[Page 215 | Product 5 | SKU=BRD 39305] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 42100 ======
+[Page 215 | Product 6 | SKU=BRD 42100] ..listing data => price=$991.33, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 6 | SKU=BRD 42100] ..no more info link on card; specs left empty
+[Page 215 | Product 6 | SKU=BRD 42100] ..normalized price=$991.33, mapped stock status=Long Lead Time
+[Page 215 | Product 6 | SKU=BRD 42100] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 42120 ======
+[Page 215 | Product 7 | SKU=BRD 42120] ..listing data => price=$393.25, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 7 | SKU=BRD 42120] ..no more info link on card; specs left empty
+[Page 215 | Product 7 | SKU=BRD 42120] ..normalized price=$393.25, mapped stock status=Long Lead Time
+[Page 215 | Product 7 | SKU=BRD 42120] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 42510 ======
+[Page 215 | Product 8 | SKU=BRD 42510] ..listing data => price=$968.66, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 8 | SKU=BRD 42510] ..no more info link on card; specs left empty
+[Page 215 | Product 8 | SKU=BRD 42510] ..normalized price=$968.66, mapped stock status=Long Lead Time
+[Page 215 | Product 8 | SKU=BRD 42510] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 4412 ======
+[Page 215 | Product 9 | SKU=BRD 4412] ..listing data => price=$3.91, status=In Stock, discontinued=True, heavy_item=False
+[Page 215 | Product 9 | SKU=BRD 4412] ..no more info link on card; specs left empty
+[Page 215 | Product 9 | SKU=BRD 4412] ..normalized price=$3.91, mapped stock status=In Stock
+[Page 215 | Product 9 | SKU=BRD 4412] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 4A4194 ======
+[Page 215 | Product 10 | SKU=BRD 4A4194] ..listing data => price=$5.14, status=In Stock, discontinued=False, heavy_item=False
+[Page 215 | Product 10 | SKU=BRD 4A4194] ..no more info link on card; specs left empty
+[Page 215 | Product 10 | SKU=BRD 4A4194] ..normalized price=$5.14, mapped stock status=In Stock
+[Page 215 | Product 10 | SKU=BRD 4A4194] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 4A5144 ======
+[Page 215 | Product 11 | SKU=BRD 4A5144] ..listing data => price=$10.12, status=In Stock, discontinued=False, heavy_item=False
+[Page 215 | Product 11 | SKU=BRD 4A5144] ..no more info link on card; specs left empty
+[Page 215 | Product 11 | SKU=BRD 4A5144] ..normalized price=$10.12, mapped stock status=In Stock
+[Page 215 | Product 11 | SKU=BRD 4A5144] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 4A6144 ======
+[Page 215 | Product 12 | SKU=BRD 4A6144] ..listing data => price=$6.23, status=In Stock, discontinued=False, heavy_item=False
+[Page 215 | Product 12 | SKU=BRD 4A6144] ..no more info link on card; specs left empty
+[Page 215 | Product 12 | SKU=BRD 4A6144] ..normalized price=$6.23, mapped stock status=In Stock
+[Page 215 | Product 12 | SKU=BRD 4A6144] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 51610 ======
+[Page 215 | Product 13 | SKU=BRD 51610] ..listing data => price=$86.25, status=MFG BO - In Stock Date: 2026-04-06, discontinued=False, heavy_item=False
+[Page 215 | Product 13 | SKU=BRD 51610] ..no more info link on card; specs left empty
+[Page 215 | Product 13 | SKU=BRD 51610] ..normalized price=$86.25, mapped stock status=Out of Stock
+[Page 215 | Product 13 | SKU=BRD 51610] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 51612 ======
+[Page 215 | Product 14 | SKU=BRD 51612] ..listing data => price=$86.25, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 14 | SKU=BRD 51612] ..no more info link on card; specs left empty
+[Page 215 | Product 14 | SKU=BRD 51612] ..normalized price=$86.25, mapped stock status=Long Lead Time
+[Page 215 | Product 14 | SKU=BRD 51612] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 51810 ======
+[Page 215 | Product 15 | SKU=BRD 51810] ..listing data => price=$238.37, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 15 | SKU=BRD 51810] ..no more info link on card; specs left empty
+[Page 215 | Product 15 | SKU=BRD 51810] ..normalized price=$238.37, mapped stock status=Long Lead Time
+[Page 215 | Product 15 | SKU=BRD 51810] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 51812 ======
+[Page 215 | Product 16 | SKU=BRD 51812] ..listing data => price=$238.39, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 16 | SKU=BRD 51812] ..no more info link on card; specs left empty
+[Page 215 | Product 16 | SKU=BRD 51812] ..normalized price=$238.39, mapped stock status=Long Lead Time
+[Page 215 | Product 16 | SKU=BRD 51812] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 51814 ======
+[Page 215 | Product 17 | SKU=BRD 51814] ..listing data => price=$233.93, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 17 | SKU=BRD 51814] ..no more info link on card; specs left empty
+[Page 215 | Product 17 | SKU=BRD 51814] ..normalized price=$233.93, mapped stock status=Long Lead Time
+[Page 215 | Product 17 | SKU=BRD 51814] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 51816 ======
+[Page 215 | Product 18 | SKU=BRD 51816] ..listing data => price=$238.39, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 18 | SKU=BRD 51816] ..no more info link on card; specs left empty
+[Page 215 | Product 18 | SKU=BRD 51816] ..normalized price=$238.39, mapped stock status=Long Lead Time
+[Page 215 | Product 18 | SKU=BRD 51816] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 51818 ======
+[Page 215 | Product 19 | SKU=BRD 51818] ..listing data => price=$238.39, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 215 | Product 19 | SKU=BRD 51818] ..no more info link on card; specs left empty
+[Page 215 | Product 19 | SKU=BRD 51818] ..normalized price=$238.39, mapped stock status=Long Lead Time
+[Page 215 | Product 19 | SKU=BRD 51818] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 52608G ======
+[Page 215 | Product 20 | SKU=BRD 52608G] ..listing data => price=$122.25, status=In Stock, discontinued=False, heavy_item=False
+[Page 215 | Product 20 | SKU=BRD 52608G] ..no more info link on card; specs left empty
+[Page 215 | Product 20 | SKU=BRD 52608G] ..normalized price=$122.25, mapped stock status=In Stock
+[Page 215 | Product 20 | SKU=BRD 52608G] ..row prepared for CSV
+
+
+Saved 20 rows from page 215 (total saved: 60).
+
+-------------Page#216----------------
+Proceeding: detected 20 product block(s) on page 216.
+====== PRODUCT # 1 --- SKU=BRD 5270 ======
+[Page 216 | Product 1 | SKU=BRD 5270] ..listing data => price=$244.82, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 1 | SKU=BRD 5270] ..no more info link on card; specs left empty
+[Page 216 | Product 1 | SKU=BRD 5270] ..normalized price=$244.82, mapped stock status=Long Lead Time
+[Page 216 | Product 1 | SKU=BRD 5270] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 53612G ======
+[Page 216 | Product 2 | SKU=BRD 53612G] ..listing data => price=$122.25, status=In Stock, discontinued=False, heavy_item=False
+[Page 216 | Product 2 | SKU=BRD 53612G] ..no more info link on card; specs left empty
+[Page 216 | Product 2 | SKU=BRD 53612G] ..normalized price=$122.25, mapped stock status=In Stock
+[Page 216 | Product 2 | SKU=BRD 53612G] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 53614 ======
+[Page 216 | Product 3 | SKU=BRD 53614] ..listing data => price=$154.14, status=In Stock, discontinued=False, heavy_item=False
+[Page 216 | Product 3 | SKU=BRD 53614] ..no more info link on card; specs left empty
+[Page 216 | Product 3 | SKU=BRD 53614] ..normalized price=$154.14, mapped stock status=In Stock
+[Page 216 | Product 3 | SKU=BRD 53614] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 53616 ======
+[Page 216 | Product 4 | SKU=BRD 53616] ..listing data => price=$113.69, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 4 | SKU=BRD 53616] ..no more info link on card; specs left empty
+[Page 216 | Product 4 | SKU=BRD 53616] ..normalized price=$113.69, mapped stock status=Long Lead Time
+[Page 216 | Product 4 | SKU=BRD 53616] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 53810G ======
+[Page 216 | Product 5 | SKU=BRD 53810G] ..listing data => price=$148.78, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 5 | SKU=BRD 53810G] ..no more info link on card; specs left empty
+[Page 216 | Product 5 | SKU=BRD 53810G] ..normalized price=$148.78, mapped stock status=Long Lead Time
+[Page 216 | Product 5 | SKU=BRD 53810G] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 53812G ======
+[Page 216 | Product 6 | SKU=BRD 53812G] ..listing data => price=$148.78, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 6 | SKU=BRD 53812G] ..no more info link on card; specs left empty
+[Page 216 | Product 6 | SKU=BRD 53812G] ..normalized price=$148.78, mapped stock status=Long Lead Time
+[Page 216 | Product 6 | SKU=BRD 53812G] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 53818G ======
+[Page 216 | Product 7 | SKU=BRD 53818G] ..listing data => price=$148.78, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 7 | SKU=BRD 53818G] ..no more info link on card; specs left empty
+[Page 216 | Product 7 | SKU=BRD 53818G] ..normalized price=$148.78, mapped stock status=Long Lead Time
+[Page 216 | Product 7 | SKU=BRD 53818G] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 55526 ======
+[Page 216 | Product 8 | SKU=BRD 55526] ..listing data => price=$100.52, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 8 | SKU=BRD 55526] ..no more info link on card; specs left empty
+[Page 216 | Product 8 | SKU=BRD 55526] ..normalized price=$100.52, mapped stock status=Long Lead Time
+[Page 216 | Product 8 | SKU=BRD 55526] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 55528 ======
+[Page 216 | Product 9 | SKU=BRD 55528] ..listing data => price=$823.68, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 9 | SKU=BRD 55528] ..no more info link on card; specs left empty
+[Page 216 | Product 9 | SKU=BRD 55528] ..normalized price=$823.68, mapped stock status=Long Lead Time
+[Page 216 | Product 9 | SKU=BRD 55528] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 55530 ======
+[Page 216 | Product 10 | SKU=BRD 55530] ..listing data => price=$823.68, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 10 | SKU=BRD 55530] ..no more info link on card; specs left empty
+[Page 216 | Product 10 | SKU=BRD 55530] ..normalized price=$823.68, mapped stock status=Long Lead Time
+[Page 216 | Product 10 | SKU=BRD 55530] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 55532 ======
+[Page 216 | Product 11 | SKU=BRD 55532] ..listing data => price=$823.68, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 11 | SKU=BRD 55532] ..no more info link on card; specs left empty
+[Page 216 | Product 11 | SKU=BRD 55532] ..normalized price=$823.68, mapped stock status=Long Lead Time
+[Page 216 | Product 11 | SKU=BRD 55532] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 55534 ======
+[Page 216 | Product 12 | SKU=BRD 55534] ..listing data => price=$823.68, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 12 | SKU=BRD 55534] ..no more info link on card; specs left empty
+[Page 216 | Product 12 | SKU=BRD 55534] ..normalized price=$823.68, mapped stock status=Long Lead Time
+[Page 216 | Product 12 | SKU=BRD 55534] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 561012 ======
+[Page 216 | Product 13 | SKU=BRD 561012] ..listing data => price=$505.94, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 13 | SKU=BRD 561012] ..no more info link on card; specs left empty
+[Page 216 | Product 13 | SKU=BRD 561012] ..normalized price=$505.94, mapped stock status=Long Lead Time
+[Page 216 | Product 13 | SKU=BRD 561012] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 561016 ======
+[Page 216 | Product 14 | SKU=BRD 561016] ..listing data => price=$538.69, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 14 | SKU=BRD 561016] ..no more info link on card; specs left empty
+[Page 216 | Product 14 | SKU=BRD 561016] ..normalized price=$538.69, mapped stock status=Long Lead Time
+[Page 216 | Product 14 | SKU=BRD 561016] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 6003L22 ======
+[Page 216 | Product 15 | SKU=BRD 6003L22] ..listing data => price=$959.42, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 15 | SKU=BRD 6003L22] ..no more info link on card; specs left empty
+[Page 216 | Product 15 | SKU=BRD 6003L22] ..normalized price=$959.42, mapped stock status=Long Lead Time
+[Page 216 | Product 15 | SKU=BRD 6003L22] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 6003L24 ======
+[Page 216 | Product 16 | SKU=BRD 6003L24] ..listing data => price=$435.86, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 16 | SKU=BRD 6003L24] ..no more info link on card; specs left empty
+[Page 216 | Product 16 | SKU=BRD 6003L24] ..normalized price=$435.86, mapped stock status=Long Lead Time
+[Page 216 | Product 16 | SKU=BRD 6003L24] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 603300 ======
+[Page 216 | Product 17 | SKU=BRD 603300] ..listing data => price=$384.66, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 17 | SKU=BRD 603300] ..no more info link on card; specs left empty
+[Page 216 | Product 17 | SKU=BRD 603300] ..normalized price=$384.66, mapped stock status=Long Lead Time
+[Page 216 | Product 17 | SKU=BRD 603300] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 604190 ======
+[Page 216 | Product 18 | SKU=BRD 604190] ..listing data => price=$438.48, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 18 | SKU=BRD 604190] ..no more info link on card; specs left empty
+[Page 216 | Product 18 | SKU=BRD 604190] ..normalized price=$438.48, mapped stock status=Long Lead Time
+[Page 216 | Product 18 | SKU=BRD 604190] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 604200 ======
+[Page 216 | Product 19 | SKU=BRD 604200] ..listing data => price=$385.05, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 216 | Product 19 | SKU=BRD 604200] ..no more info link on card; specs left empty
+[Page 216 | Product 19 | SKU=BRD 604200] ..normalized price=$385.05, mapped stock status=Long Lead Time
+[Page 216 | Product 19 | SKU=BRD 604200] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 604216 ======
+[Page 216 | Product 20 | SKU=BRD 604216] ..listing data => price=$316.35, status=In Stock, discontinued=False, heavy_item=False
+[Page 216 | Product 20 | SKU=BRD 604216] ..no more info link on card; specs left empty
+[Page 216 | Product 20 | SKU=BRD 604216] ..normalized price=$316.35, mapped stock status=In Stock
+[Page 216 | Product 20 | SKU=BRD 604216] ..row prepared for CSV
+
+
+Saved 20 rows from page 216 (total saved: 80).
+
+-------------Page#217----------------
+Proceeding: detected 20 product block(s) on page 217.
+====== PRODUCT # 1 --- SKU=BRD 604220 ======
+[Page 217 | Product 1 | SKU=BRD 604220] ..listing data => price=$311.70, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 1 | SKU=BRD 604220] ..no more info link on card; specs left empty
+[Page 217 | Product 1 | SKU=BRD 604220] ..normalized price=$311.70, mapped stock status=Long Lead Time
+[Page 217 | Product 1 | SKU=BRD 604220] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 606120 ======
+[Page 217 | Product 2 | SKU=BRD 606120] ..listing data => price=$729.64, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 2 | SKU=BRD 606120] ..no more info link on card; specs left empty
+[Page 217 | Product 2 | SKU=BRD 606120] ..normalized price=$729.64, mapped stock status=Long Lead Time
+[Page 217 | Product 2 | SKU=BRD 606120] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 606122 ======
+[Page 217 | Product 3 | SKU=BRD 606122] ..listing data => price=$303.73, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 3 | SKU=BRD 606122] ..no more info link on card; specs left empty
+[Page 217 | Product 3 | SKU=BRD 606122] ..normalized price=$303.73, mapped stock status=Long Lead Time
+[Page 217 | Product 3 | SKU=BRD 606122] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 606124 ======
+[Page 217 | Product 4 | SKU=BRD 606124] ..listing data => price=$303.73, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 4 | SKU=BRD 606124] ..no more info link on card; specs left empty
+[Page 217 | Product 4 | SKU=BRD 606124] ..normalized price=$303.73, mapped stock status=Long Lead Time
+[Page 217 | Product 4 | SKU=BRD 606124] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 606126 ======
+[Page 217 | Product 5 | SKU=BRD 606126] ..listing data => price=$729.64, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 5 | SKU=BRD 606126] ..no more info link on card; specs left empty
+[Page 217 | Product 5 | SKU=BRD 606126] ..normalized price=$729.64, mapped stock status=Long Lead Time
+[Page 217 | Product 5 | SKU=BRD 606126] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 64010 ======
+[Page 217 | Product 6 | SKU=BRD 64010] ..listing data => price=$397.16, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 6 | SKU=BRD 64010] ..no more info link on card; specs left empty
+[Page 217 | Product 6 | SKU=BRD 64010] ..normalized price=$397.16, mapped stock status=Long Lead Time
+[Page 217 | Product 6 | SKU=BRD 64010] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 64012 ======
+[Page 217 | Product 7 | SKU=BRD 64012] ..listing data => price=$397.16, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 7 | SKU=BRD 64012] ..no more info link on card; specs left empty
+[Page 217 | Product 7 | SKU=BRD 64012] ..normalized price=$397.16, mapped stock status=Long Lead Time
+[Page 217 | Product 7 | SKU=BRD 64012] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 64014 ======
+[Page 217 | Product 8 | SKU=BRD 64014] ..listing data => price=$397.16, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 8 | SKU=BRD 64014] ..no more info link on card; specs left empty
+[Page 217 | Product 8 | SKU=BRD 64014] ..normalized price=$397.16, mapped stock status=Long Lead Time
+[Page 217 | Product 8 | SKU=BRD 64014] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 64016 ======
+[Page 217 | Product 9 | SKU=BRD 64016] ..listing data => price=$391.68, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 9 | SKU=BRD 64016] ..no more info link on card; specs left empty
+[Page 217 | Product 9 | SKU=BRD 64016] ..normalized price=$391.68, mapped stock status=Long Lead Time
+[Page 217 | Product 9 | SKU=BRD 64016] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 64018 ======
+[Page 217 | Product 10 | SKU=BRD 64018] ..listing data => price=$391.68, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 10 | SKU=BRD 64018] ..no more info link on card; specs left empty
+[Page 217 | Product 10 | SKU=BRD 64018] ..normalized price=$391.68, mapped stock status=Long Lead Time
+[Page 217 | Product 10 | SKU=BRD 64018] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 64022 ======
+[Page 217 | Product 11 | SKU=BRD 64022] ..listing data => price=$292.88, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 11 | SKU=BRD 64022] ..no more info link on card; specs left empty
+[Page 217 | Product 11 | SKU=BRD 64022] ..normalized price=$292.88, mapped stock status=Long Lead Time
+[Page 217 | Product 11 | SKU=BRD 64022] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 64024 ======
+[Page 217 | Product 12 | SKU=BRD 64024] ..listing data => price=$274.56, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 12 | SKU=BRD 64024] ..no more info link on card; specs left empty
+[Page 217 | Product 12 | SKU=BRD 64024] ..normalized price=$274.56, mapped stock status=Long Lead Time
+[Page 217 | Product 12 | SKU=BRD 64024] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 64026 ======
+[Page 217 | Product 13 | SKU=BRD 64026] ..listing data => price=$274.56, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 13 | SKU=BRD 64026] ..no more info link on card; specs left empty
+[Page 217 | Product 13 | SKU=BRD 64026] ..normalized price=$274.56, mapped stock status=Long Lead Time
+[Page 217 | Product 13 | SKU=BRD 64026] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 64028 ======
+[Page 217 | Product 14 | SKU=BRD 64028] ..listing data => price=$336.75, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 14 | SKU=BRD 64028] ..no more info link on card; specs left empty
+[Page 217 | Product 14 | SKU=BRD 64028] ..normalized price=$336.75, mapped stock status=Long Lead Time
+[Page 217 | Product 14 | SKU=BRD 64028] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 64030 ======
+[Page 217 | Product 15 | SKU=BRD 64030] ..listing data => price=$383.96, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 15 | SKU=BRD 64030] ..no more info link on card; specs left empty
+[Page 217 | Product 15 | SKU=BRD 64030] ..normalized price=$383.96, mapped stock status=Long Lead Time
+[Page 217 | Product 15 | SKU=BRD 64030] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 64032 ======
+[Page 217 | Product 16 | SKU=BRD 64032] ..listing data => price=$274.56, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 16 | SKU=BRD 64032] ..no more info link on card; specs left empty
+[Page 217 | Product 16 | SKU=BRD 64032] ..normalized price=$274.56, mapped stock status=Long Lead Time
+[Page 217 | Product 16 | SKU=BRD 64032] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 64036 ======
+[Page 217 | Product 17 | SKU=BRD 64036] ..listing data => price=$397.15, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 17 | SKU=BRD 64036] ..no more info link on card; specs left empty
+[Page 217 | Product 17 | SKU=BRD 64036] ..normalized price=$397.15, mapped stock status=Long Lead Time
+[Page 217 | Product 17 | SKU=BRD 64036] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 65024 ======
+[Page 217 | Product 18 | SKU=BRD 65024] ..listing data => price=$191.28, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 18 | SKU=BRD 65024] ..no more info link on card; specs left empty
+[Page 217 | Product 18 | SKU=BRD 65024] ..normalized price=$191.28, mapped stock status=Long Lead Time
+[Page 217 | Product 18 | SKU=BRD 65024] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 65028 ======
+[Page 217 | Product 19 | SKU=BRD 65028] ..listing data => price=$341.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 19 | SKU=BRD 65028] ..no more info link on card; specs left empty
+[Page 217 | Product 19 | SKU=BRD 65028] ..normalized price=$341.99, mapped stock status=Long Lead Time
+[Page 217 | Product 19 | SKU=BRD 65028] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 65030 ======
+[Page 217 | Product 20 | SKU=BRD 65030] ..listing data => price=$424.09, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 217 | Product 20 | SKU=BRD 65030] ..no more info link on card; specs left empty
+[Page 217 | Product 20 | SKU=BRD 65030] ..normalized price=$424.09, mapped stock status=Long Lead Time
+[Page 217 | Product 20 | SKU=BRD 65030] ..row prepared for CSV
+
+
+Saved 20 rows from page 217 (total saved: 100).
+
+-------------Page#218----------------
+Proceeding: detected 20 product block(s) on page 218.
+====== PRODUCT # 1 --- SKU=BRD 65032 ======
+[Page 218 | Product 1 | SKU=BRD 65032] ..listing data => price=$341.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 1 | SKU=BRD 65032] ..no more info link on card; specs left empty
+[Page 218 | Product 1 | SKU=BRD 65032] ..normalized price=$341.99, mapped stock status=Long Lead Time
+[Page 218 | Product 1 | SKU=BRD 65032] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 65034 ======
+[Page 218 | Product 2 | SKU=BRD 65034] ..listing data => price=$341.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 2 | SKU=BRD 65034] ..no more info link on card; specs left empty
+[Page 218 | Product 2 | SKU=BRD 65034] ..normalized price=$341.99, mapped stock status=Long Lead Time
+[Page 218 | Product 2 | SKU=BRD 65034] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 65036 ======
+[Page 218 | Product 3 | SKU=BRD 65036] ..listing data => price=$297.43, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 3 | SKU=BRD 65036] ..no more info link on card; specs left empty
+[Page 218 | Product 3 | SKU=BRD 65036] ..normalized price=$297.43, mapped stock status=Long Lead Time
+[Page 218 | Product 3 | SKU=BRD 65036] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 65038 ======
+[Page 218 | Product 4 | SKU=BRD 65038] ..listing data => price=$341.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 4 | SKU=BRD 65038] ..no more info link on card; specs left empty
+[Page 218 | Product 4 | SKU=BRD 65038] ..normalized price=$341.99, mapped stock status=Long Lead Time
+[Page 218 | Product 4 | SKU=BRD 65038] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 65040 ======
+[Page 218 | Product 5 | SKU=BRD 65040] ..listing data => price=$341.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 5 | SKU=BRD 65040] ..no more info link on card; specs left empty
+[Page 218 | Product 5 | SKU=BRD 65040] ..normalized price=$341.99, mapped stock status=Long Lead Time
+[Page 218 | Product 5 | SKU=BRD 65040] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 6580 ======
+[Page 218 | Product 6 | SKU=BRD 6580] ..listing data => price=$2,177.44, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 6 | SKU=BRD 6580] ..no more info link on card; specs left empty
+[Page 218 | Product 6 | SKU=BRD 6580] ..normalized price=$2,177.44, mapped stock status=Long Lead Time
+[Page 218 | Product 6 | SKU=BRD 6580] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 70310 ======
+[Page 218 | Product 7 | SKU=BRD 70310] ..listing data => price=$1,558.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 7 | SKU=BRD 70310] ..no more info link on card; specs left empty
+[Page 218 | Product 7 | SKU=BRD 70310] ..normalized price=$1,558.99, mapped stock status=Long Lead Time
+[Page 218 | Product 7 | SKU=BRD 70310] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 70320 ======
+[Page 218 | Product 8 | SKU=BRD 70320] ..listing data => price=$1,558.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 8 | SKU=BRD 70320] ..no more info link on card; specs left empty
+[Page 218 | Product 8 | SKU=BRD 70320] ..normalized price=$1,558.99, mapped stock status=Long Lead Time
+[Page 218 | Product 8 | SKU=BRD 70320] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 70330 ======
+[Page 218 | Product 9 | SKU=BRD 70330] ..listing data => price=$1,558.99, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 9 | SKU=BRD 70330] ..no more info link on card; specs left empty
+[Page 218 | Product 9 | SKU=BRD 70330] ..normalized price=$1,558.99, mapped stock status=Long Lead Time
+[Page 218 | Product 9 | SKU=BRD 70330] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 70516L ======
+[Page 218 | Product 10 | SKU=BRD 70516L] ..listing data => price=$527.31, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 10 | SKU=BRD 70516L] ..no more info link on card; specs left empty
+[Page 218 | Product 10 | SKU=BRD 70516L] ..normalized price=$527.31, mapped stock status=Long Lead Time
+[Page 218 | Product 10 | SKU=BRD 70516L] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 70524SI ======
+[Page 218 | Product 11 | SKU=BRD 70524SI] ..listing data => price=$612.13, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 11 | SKU=BRD 70524SI] ..no more info link on card; specs left empty
+[Page 218 | Product 11 | SKU=BRD 70524SI] ..normalized price=$612.13, mapped stock status=Long Lead Time
+[Page 218 | Product 11 | SKU=BRD 70524SI] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 73022L ======
+[Page 218 | Product 12 | SKU=BRD 73022L] ..listing data => price=$536.41, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 12 | SKU=BRD 73022L] ..no more info link on card; specs left empty
+[Page 218 | Product 12 | SKU=BRD 73022L] ..normalized price=$536.41, mapped stock status=Long Lead Time
+[Page 218 | Product 12 | SKU=BRD 73022L] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 762415 ======
+[Page 218 | Product 13 | SKU=BRD 762415] ..listing data => price=$196.91, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 13 | SKU=BRD 762415] ..no more info link on card; specs left empty
+[Page 218 | Product 13 | SKU=BRD 762415] ..normalized price=$196.91, mapped stock status=Long Lead Time
+[Page 218 | Product 13 | SKU=BRD 762415] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 80420 ======
+[Page 218 | Product 14 | SKU=BRD 80420] ..listing data => price=$1,493.13, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 14 | SKU=BRD 80420] ..no more info link on card; specs left empty
+[Page 218 | Product 14 | SKU=BRD 80420] ..normalized price=$1,493.13, mapped stock status=Long Lead Time
+[Page 218 | Product 14 | SKU=BRD 80420] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 80450 ======
+[Page 218 | Product 15 | SKU=BRD 80450] ..listing data => price=$703.56, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 15 | SKU=BRD 80450] ..no more info link on card; specs left empty
+[Page 218 | Product 15 | SKU=BRD 80450] ..normalized price=$703.56, mapped stock status=Long Lead Time
+[Page 218 | Product 15 | SKU=BRD 80450] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 80500 ======
+[Page 218 | Product 16 | SKU=BRD 80500] ..listing data => price=$990.42, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 16 | SKU=BRD 80500] ..no more info link on card; specs left empty
+[Page 218 | Product 16 | SKU=BRD 80500] ..normalized price=$990.42, mapped stock status=Long Lead Time
+[Page 218 | Product 16 | SKU=BRD 80500] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 86010 ======
+[Page 218 | Product 17 | SKU=BRD 86010] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 17 | SKU=BRD 86010] ..no more info link on card; specs left empty
+[Page 218 | Product 17 | SKU=BRD 86010] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 218 | Product 17 | SKU=BRD 86010] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 86012 ======
+[Page 218 | Product 18 | SKU=BRD 86012] ..listing data => price=$190.91, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 18 | SKU=BRD 86012] ..no more info link on card; specs left empty
+[Page 218 | Product 18 | SKU=BRD 86012] ..normalized price=$190.91, mapped stock status=Long Lead Time
+[Page 218 | Product 18 | SKU=BRD 86012] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 86014 ======
+[Page 218 | Product 19 | SKU=BRD 86014] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 19 | SKU=BRD 86014] ..no more info link on card; specs left empty
+[Page 218 | Product 19 | SKU=BRD 86014] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 218 | Product 19 | SKU=BRD 86014] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 86016 ======
+[Page 218 | Product 20 | SKU=BRD 86016] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 218 | Product 20 | SKU=BRD 86016] ..no more info link on card; specs left empty
+[Page 218 | Product 20 | SKU=BRD 86016] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 218 | Product 20 | SKU=BRD 86016] ..row prepared for CSV
+
+
+Saved 20 rows from page 218 (total saved: 120).
+
+-------------Page#219----------------
+Proceeding: detected 20 product block(s) on page 219.
+====== PRODUCT # 1 --- SKU=BRD 86018 ======
+[Page 219 | Product 1 | SKU=BRD 86018] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 1 | SKU=BRD 86018] ..no more info link on card; specs left empty
+[Page 219 | Product 1 | SKU=BRD 86018] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 1 | SKU=BRD 86018] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 86020 ======
+[Page 219 | Product 2 | SKU=BRD 86020] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 2 | SKU=BRD 86020] ..no more info link on card; specs left empty
+[Page 219 | Product 2 | SKU=BRD 86020] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 2 | SKU=BRD 86020] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD 86022 ======
+[Page 219 | Product 3 | SKU=BRD 86022] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 3 | SKU=BRD 86022] ..no more info link on card; specs left empty
+[Page 219 | Product 3 | SKU=BRD 86022] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 3 | SKU=BRD 86022] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD 86024 ======
+[Page 219 | Product 4 | SKU=BRD 86024] ..listing data => price=$273.38, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 4 | SKU=BRD 86024] ..no more info link on card; specs left empty
+[Page 219 | Product 4 | SKU=BRD 86024] ..normalized price=$273.38, mapped stock status=Long Lead Time
+[Page 219 | Product 4 | SKU=BRD 86024] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD 86026 ======
+[Page 219 | Product 5 | SKU=BRD 86026] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 5 | SKU=BRD 86026] ..no more info link on card; specs left empty
+[Page 219 | Product 5 | SKU=BRD 86026] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 5 | SKU=BRD 86026] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD 86028 ======
+[Page 219 | Product 6 | SKU=BRD 86028] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 6 | SKU=BRD 86028] ..no more info link on card; specs left empty
+[Page 219 | Product 6 | SKU=BRD 86028] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 6 | SKU=BRD 86028] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD 86030 ======
+[Page 219 | Product 7 | SKU=BRD 86030] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 7 | SKU=BRD 86030] ..no more info link on card; specs left empty
+[Page 219 | Product 7 | SKU=BRD 86030] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 7 | SKU=BRD 86030] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD 86032 ======
+[Page 219 | Product 8 | SKU=BRD 86032] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 8 | SKU=BRD 86032] ..no more info link on card; specs left empty
+[Page 219 | Product 8 | SKU=BRD 86032] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 8 | SKU=BRD 86032] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD 86034 ======
+[Page 219 | Product 9 | SKU=BRD 86034] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 9 | SKU=BRD 86034] ..no more info link on card; specs left empty
+[Page 219 | Product 9 | SKU=BRD 86034] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 9 | SKU=BRD 86034] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD 86036 ======
+[Page 219 | Product 10 | SKU=BRD 86036] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 10 | SKU=BRD 86036] ..no more info link on card; specs left empty
+[Page 219 | Product 10 | SKU=BRD 86036] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 10 | SKU=BRD 86036] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD 86038 ======
+[Page 219 | Product 11 | SKU=BRD 86038] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 11 | SKU=BRD 86038] ..no more info link on card; specs left empty
+[Page 219 | Product 11 | SKU=BRD 86038] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 11 | SKU=BRD 86038] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD 86040 ======
+[Page 219 | Product 12 | SKU=BRD 86040] ..listing data => price=$291.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 12 | SKU=BRD 86040] ..no more info link on card; specs left empty
+[Page 219 | Product 12 | SKU=BRD 86040] ..normalized price=$291.55, mapped stock status=Long Lead Time
+[Page 219 | Product 12 | SKU=BRD 86040] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD 882284C ======
+[Page 219 | Product 13 | SKU=BRD 882284C] ..listing data => price=$460.83, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 13 | SKU=BRD 882284C] ..no more info link on card; specs left empty
+[Page 219 | Product 13 | SKU=BRD 882284C] ..normalized price=$460.83, mapped stock status=Long Lead Time
+[Page 219 | Product 13 | SKU=BRD 882284C] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD 882286C ======
+[Page 219 | Product 14 | SKU=BRD 882286C] ..listing data => price=$594.16, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 14 | SKU=BRD 882286C] ..no more info link on card; specs left empty
+[Page 219 | Product 14 | SKU=BRD 882286C] ..normalized price=$594.16, mapped stock status=Long Lead Time
+[Page 219 | Product 14 | SKU=BRD 882286C] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD 882286SI ======
+[Page 219 | Product 15 | SKU=BRD 882286SI] ..listing data => price=$306.52, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 15 | SKU=BRD 882286SI] ..no more info link on card; specs left empty
+[Page 219 | Product 15 | SKU=BRD 882286SI] ..normalized price=$306.52, mapped stock status=Long Lead Time
+[Page 219 | Product 15 | SKU=BRD 882286SI] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD 883000C ======
+[Page 219 | Product 16 | SKU=BRD 883000C] ..listing data => price=$31.68, status=In Stock, discontinued=False, heavy_item=False
+[Page 219 | Product 16 | SKU=BRD 883000C] ..no more info link on card; specs left empty
+[Page 219 | Product 16 | SKU=BRD 883000C] ..normalized price=$31.68, mapped stock status=In Stock
+[Page 219 | Product 16 | SKU=BRD 883000C] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD 900016A ======
+[Page 219 | Product 17 | SKU=BRD 900016A] ..listing data => price=$489.78, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 17 | SKU=BRD 900016A] ..no more info link on card; specs left empty
+[Page 219 | Product 17 | SKU=BRD 900016A] ..normalized price=$489.78, mapped stock status=Long Lead Time
+[Page 219 | Product 17 | SKU=BRD 900016A] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD 92100 ======
+[Page 219 | Product 18 | SKU=BRD 92100] ..listing data => price=$1,965.29, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 18 | SKU=BRD 92100] ..no more info link on card; specs left empty
+[Page 219 | Product 18 | SKU=BRD 92100] ..normalized price=$1,965.29, mapped stock status=Long Lead Time
+[Page 219 | Product 18 | SKU=BRD 92100] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD 92110 ======
+[Page 219 | Product 19 | SKU=BRD 92110] ..listing data => price=$1,811.55, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 19 | SKU=BRD 92110] ..no more info link on card; specs left empty
+[Page 219 | Product 19 | SKU=BRD 92110] ..normalized price=$1,811.55, mapped stock status=Long Lead Time
+[Page 219 | Product 19 | SKU=BRD 92110] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD 92220 ======
+[Page 219 | Product 20 | SKU=BRD 92220] ..listing data => price=$614.90, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 219 | Product 20 | SKU=BRD 92220] ..no more info link on card; specs left empty
+[Page 219 | Product 20 | SKU=BRD 92220] ..normalized price=$614.90, mapped stock status=Long Lead Time
+[Page 219 | Product 20 | SKU=BRD 92220] ..row prepared for CSV
+
+
+Saved 20 rows from page 219 (total saved: 140).
+
+-------------Page#220----------------
+Proceeding: detected 20 product block(s) on page 220.
+====== PRODUCT # 1 --- SKU=BRD 92300 ======
+[Page 220 | Product 1 | SKU=BRD 92300] ..listing data => price=$1,851.36, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 1 | SKU=BRD 92300] ..no more info link on card; specs left empty
+[Page 220 | Product 1 | SKU=BRD 92300] ..normalized price=$1,851.36, mapped stock status=Long Lead Time
+[Page 220 | Product 1 | SKU=BRD 92300] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD 92740 ======
+[Page 220 | Product 2 | SKU=BRD 92740] ..listing data => price=$1,999.49, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 2 | SKU=BRD 92740] ..no more info link on card; specs left empty
+[Page 220 | Product 2 | SKU=BRD 92740] ..normalized price=$1,999.49, mapped stock status=Long Lead Time
+[Page 220 | Product 2 | SKU=BRD 92740] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD A300414AC ======
+[Page 220 | Product 3 | SKU=BRD A300414AC] ..listing data => price=$75.64, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 3 | SKU=BRD A300414AC] ..no more info link on card; specs left empty
+[Page 220 | Product 3 | SKU=BRD A300414AC] ..normalized price=$75.64, mapped stock status=Long Lead Time
+[Page 220 | Product 3 | SKU=BRD A300414AC] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD A303414AC ======
+[Page 220 | Product 4 | SKU=BRD A303414AC] ..listing data => price=$828.53, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 4 | SKU=BRD A303414AC] ..no more info link on card; specs left empty
+[Page 220 | Product 4 | SKU=BRD A303414AC] ..normalized price=$828.53, mapped stock status=Long Lead Time
+[Page 220 | Product 4 | SKU=BRD A303414AC] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRD A800061C ======
+[Page 220 | Product 5 | SKU=BRD A800061C] ..listing data => price=$16.63, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 5 | SKU=BRD A800061C] ..no more info link on card; specs left empty
+[Page 220 | Product 5 | SKU=BRD A800061C] ..normalized price=$16.63, mapped stock status=In Stock
+[Page 220 | Product 5 | SKU=BRD A800061C] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRD A800360C ======
+[Page 220 | Product 6 | SKU=BRD A800360C] ..listing data => price=$305.13, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 6 | SKU=BRD A800360C] ..no more info link on card; specs left empty
+[Page 220 | Product 6 | SKU=BRD A800360C] ..normalized price=$305.13, mapped stock status=Long Lead Time
+[Page 220 | Product 6 | SKU=BRD A800360C] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BRD A897216C ======
+[Page 220 | Product 7 | SKU=BRD A897216C] ..listing data => price=$440.14, status=In Stock, discontinued=True, heavy_item=False
+[Page 220 | Product 7 | SKU=BRD A897216C] ..no more info link on card; specs left empty
+[Page 220 | Product 7 | SKU=BRD A897216C] ..normalized price=$440.14, mapped stock status=In Stock
+[Page 220 | Product 7 | SKU=BRD A897216C] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BRD A897516C ======
+[Page 220 | Product 8 | SKU=BRD A897516C] ..listing data => price=$38.31, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 8 | SKU=BRD A897516C] ..no more info link on card; specs left empty
+[Page 220 | Product 8 | SKU=BRD A897516C] ..normalized price=$38.31, mapped stock status=In Stock
+[Page 220 | Product 8 | SKU=BRD A897516C] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BRD A902116C ======
+[Page 220 | Product 9 | SKU=BRD A902116C] ..listing data => price=$4.03, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 9 | SKU=BRD A902116C] ..no more info link on card; specs left empty
+[Page 220 | Product 9 | SKU=BRD A902116C] ..normalized price=$4.03, mapped stock status=Long Lead Time
+[Page 220 | Product 9 | SKU=BRD A902116C] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BRD A902416C ======
+[Page 220 | Product 10 | SKU=BRD A902416C] ..listing data => price=$41.34, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 10 | SKU=BRD A902416C] ..no more info link on card; specs left empty
+[Page 220 | Product 10 | SKU=BRD A902416C] ..normalized price=$41.34, mapped stock status=In Stock
+[Page 220 | Product 10 | SKU=BRD A902416C] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BRD A942214C ======
+[Page 220 | Product 11 | SKU=BRD A942214C] ..listing data => price=$614.07, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 11 | SKU=BRD A942214C] ..no more info link on card; specs left empty
+[Page 220 | Product 11 | SKU=BRD A942214C] ..normalized price=$614.07, mapped stock status=Long Lead Time
+[Page 220 | Product 11 | SKU=BRD A942214C] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BRD BFF20 ======
+[Page 220 | Product 12 | SKU=BRD BFF20] ..listing data => price=$117.48, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 12 | SKU=BRD BFF20] ..no more info link on card; specs left empty
+[Page 220 | Product 12 | SKU=BRD BFF20] ..normalized price=$117.48, mapped stock status=In Stock
+[Page 220 | Product 12 | SKU=BRD BFF20] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BRD C226614 ======
+[Page 220 | Product 13 | SKU=BRD C226614] ..listing data => price=$64.83, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 13 | SKU=BRD C226614] ..no more info link on card; specs left empty
+[Page 220 | Product 13 | SKU=BRD C226614] ..normalized price=$64.83, mapped stock status=Long Lead Time
+[Page 220 | Product 13 | SKU=BRD C226614] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BRD FOL0102 ======
+[Page 220 | Product 14 | SKU=BRD FOL0102] ..listing data => price=$231.56, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 14 | SKU=BRD FOL0102] ..no more info link on card; specs left empty
+[Page 220 | Product 14 | SKU=BRD FOL0102] ..normalized price=$231.56, mapped stock status=In Stock
+[Page 220 | Product 14 | SKU=BRD FOL0102] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BRD FOL0105 ======
+[Page 220 | Product 15 | SKU=BRD FOL0105] ..listing data => price=$186.45, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 15 | SKU=BRD FOL0105] ..no more info link on card; specs left empty
+[Page 220 | Product 15 | SKU=BRD FOL0105] ..normalized price=$186.45, mapped stock status=In Stock
+[Page 220 | Product 15 | SKU=BRD FOL0105] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BRD LH0029 ======
+[Page 220 | Product 16 | SKU=BRD LH0029] ..listing data => price=$434.78, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 16 | SKU=BRD LH0029] ..no more info link on card; specs left empty
+[Page 220 | Product 16 | SKU=BRD LH0029] ..normalized price=$434.78, mapped stock status=Long Lead Time
+[Page 220 | Product 16 | SKU=BRD LH0029] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BRD LH0031 ======
+[Page 220 | Product 17 | SKU=BRD LH0031] ..listing data => price=$435.00, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 17 | SKU=BRD LH0031] ..no more info link on card; specs left empty
+[Page 220 | Product 17 | SKU=BRD LH0031] ..normalized price=$435.00, mapped stock status=Long Lead Time
+[Page 220 | Product 17 | SKU=BRD LH0031] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BRD NDB-600 ======
+[Page 220 | Product 18 | SKU=BRD NDB-600] ..listing data => price=$80.38, status=In Stock, discontinued=False, heavy_item=False
+[Page 220 | Product 18 | SKU=BRD NDB-600] ..no more info link on card; specs left empty
+[Page 220 | Product 18 | SKU=BRD NDB-600] ..normalized price=$80.38, mapped stock status=In Stock
+[Page 220 | Product 18 | SKU=BRD NDB-600] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BRD PIC0222 ======
+[Page 220 | Product 19 | SKU=BRD PIC0222] ..listing data => price=$723.57, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 19 | SKU=BRD PIC0222] ..no more info link on card; specs left empty
+[Page 220 | Product 19 | SKU=BRD PIC0222] ..normalized price=$723.57, mapped stock status=Long Lead Time
+[Page 220 | Product 19 | SKU=BRD PIC0222] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BRD PWF030 ======
+[Page 220 | Product 20 | SKU=BRD PWF030] ..listing data => price=$501.91, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 220 | Product 20 | SKU=BRD PWF030] ..no more info link on card; specs left empty
+[Page 220 | Product 20 | SKU=BRD PWF030] ..normalized price=$501.91, mapped stock status=Long Lead Time
+[Page 220 | Product 20 | SKU=BRD PWF030] ..row prepared for CSV
+
+
+Saved 20 rows from page 220 (total saved: 160).
+
+-------------Page#221----------------
+Proceeding: detected 20 product block(s) on page 221.
+====== PRODUCT # 1 --- SKU=BRD VUPD1012 ======
+[Page 221 | Product 1 | SKU=BRD VUPD1012] ..listing data => price=$449.86, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 1 | SKU=BRD VUPD1012] ..no more info link on card; specs left empty
+[Page 221 | Product 1 | SKU=BRD VUPD1012] ..normalized price=$449.86, mapped stock status=Long Lead Time
+[Page 221 | Product 1 | SKU=BRD VUPD1012] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BRD VUPD1214 ======
+[Page 221 | Product 2 | SKU=BRD VUPD1214] ..listing data => price=$449.86, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 2 | SKU=BRD VUPD1214] ..no more info link on card; specs left empty
+[Page 221 | Product 2 | SKU=BRD VUPD1214] ..normalized price=$449.86, mapped stock status=In Stock
+[Page 221 | Product 2 | SKU=BRD VUPD1214] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BRD VUPD1416 ======
+[Page 221 | Product 3 | SKU=BRD VUPD1416] ..listing data => price=$449.86, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 3 | SKU=BRD VUPD1416] ..no more info link on card; specs left empty
+[Page 221 | Product 3 | SKU=BRD VUPD1416] ..normalized price=$449.86, mapped stock status=Long Lead Time
+[Page 221 | Product 3 | SKU=BRD VUPD1416] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BRD VUPD68 ======
+[Page 221 | Product 4 | SKU=BRD VUPD68] ..listing data => price=$449.86, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 4 | SKU=BRD VUPD68] ..no more info link on card; specs left empty
+[Page 221 | Product 4 | SKU=BRD VUPD68] ..normalized price=$449.86, mapped stock status=In Stock
+[Page 221 | Product 4 | SKU=BRD VUPD68] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BRM 20104 ======
+[Page 221 | Product 5 | SKU=BRM 20104] ..listing data => price=$37.67, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 5 | SKU=BRM 20104] ..no more info link on card; specs left empty
+[Page 221 | Product 5 | SKU=BRM 20104] ..normalized price=$37.67, mapped stock status=Long Lead Time
+[Page 221 | Product 5 | SKU=BRM 20104] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BRM 20105 ======
+[Page 221 | Product 6 | SKU=BRM 20105] ..listing data => price=$41.32, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 6 | SKU=BRM 20105] ..no more info link on card; specs left empty
+[Page 221 | Product 6 | SKU=BRM 20105] ..normalized price=$41.32, mapped stock status=Long Lead Time
+[Page 221 | Product 6 | SKU=BRM 20105] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BSN 0102600 ======
+[Page 221 | Product 7 | SKU=BSN 0102600] ..listing data => price=$8.67, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 7 | SKU=BSN 0102600] ..no more info link on card; specs left empty
+[Page 221 | Product 7 | SKU=BSN 0102600] ..normalized price=$8.67, mapped stock status=In Stock
+[Page 221 | Product 7 | SKU=BSN 0102600] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BSN 0102700 ======
+[Page 221 | Product 8 | SKU=BSN 0102700] ..listing data => price=$10.00, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 8 | SKU=BSN 0102700] ..no more info link on card; specs left empty
+[Page 221 | Product 8 | SKU=BSN 0102700] ..normalized price=$10.00, mapped stock status=In Stock
+[Page 221 | Product 8 | SKU=BSN 0102700] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BSN 0102800 ======
+[Page 221 | Product 9 | SKU=BSN 0102800] ..listing data => price=$12.01, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 9 | SKU=BSN 0102800] ..no more info link on card; specs left empty
+[Page 221 | Product 9 | SKU=BSN 0102800] ..normalized price=$12.01, mapped stock status=In Stock
+[Page 221 | Product 9 | SKU=BSN 0102800] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BSN 0102900 ======
+[Page 221 | Product 10 | SKU=BSN 0102900] ..listing data => price=$14.06, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 10 | SKU=BSN 0102900] ..no more info link on card; specs left empty
+[Page 221 | Product 10 | SKU=BSN 0102900] ..normalized price=$14.06, mapped stock status=Long Lead Time
+[Page 221 | Product 10 | SKU=BSN 0102900] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BSN 01959 ======
+[Page 221 | Product 11 | SKU=BSN 01959] ..listing data => price=$9.51, status=In Stock, discontinued=True, heavy_item=False
+[Page 221 | Product 11 | SKU=BSN 01959] ..no more info link on card; specs left empty
+[Page 221 | Product 11 | SKU=BSN 01959] ..normalized price=$9.51, mapped stock status=In Stock
+[Page 221 | Product 11 | SKU=BSN 01959] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BSN 02195 ======
+[Page 221 | Product 12 | SKU=BSN 02195] ..listing data => price=$15.26, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 12 | SKU=BSN 02195] ..no more info link on card; specs left empty
+[Page 221 | Product 12 | SKU=BSN 02195] ..normalized price=$15.26, mapped stock status=In Stock
+[Page 221 | Product 12 | SKU=BSN 02195] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BSN 02197 ======
+[Page 221 | Product 13 | SKU=BSN 02197] ..listing data => price=$22.64, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 13 | SKU=BSN 02197] ..no more info link on card; specs left empty
+[Page 221 | Product 13 | SKU=BSN 02197] ..normalized price=$22.64, mapped stock status=In Stock
+[Page 221 | Product 13 | SKU=BSN 02197] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BSN 02198 ======
+[Page 221 | Product 14 | SKU=BSN 02198] ..listing data => price=$21.76, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 14 | SKU=BSN 02198] ..no more info link on card; specs left empty
+[Page 221 | Product 14 | SKU=BSN 02198] ..normalized price=$21.76, mapped stock status=In Stock
+[Page 221 | Product 14 | SKU=BSN 02198] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BSN 02199 ======
+[Page 221 | Product 15 | SKU=BSN 02199] ..listing data => price=$23.75, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 15 | SKU=BSN 02199] ..no more info link on card; specs left empty
+[Page 221 | Product 15 | SKU=BSN 02199] ..normalized price=$23.75, mapped stock status=In Stock
+[Page 221 | Product 15 | SKU=BSN 02199] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BSN 0232200 ======
+[Page 221 | Product 16 | SKU=BSN 0232200] ..listing data => price=$56.25, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 16 | SKU=BSN 0232200] ..no more info link on card; specs left empty
+[Page 221 | Product 16 | SKU=BSN 0232200] ..normalized price=$56.25, mapped stock status=Long Lead Time
+[Page 221 | Product 16 | SKU=BSN 0232200] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BSN 0232400 ======
+[Page 221 | Product 17 | SKU=BSN 0232400] ..listing data => price=$51.57, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 17 | SKU=BSN 0232400] ..no more info link on card; specs left empty
+[Page 221 | Product 17 | SKU=BSN 0232400] ..normalized price=$51.57, mapped stock status=Long Lead Time
+[Page 221 | Product 17 | SKU=BSN 0232400] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BSN 04412001 ======
+[Page 221 | Product 18 | SKU=BSN 04412001] ..listing data => price=$4.30, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 18 | SKU=BSN 04412001] ..no more info link on card; specs left empty
+[Page 221 | Product 18 | SKU=BSN 04412001] ..normalized price=$4.30, mapped stock status=In Stock
+[Page 221 | Product 18 | SKU=BSN 04412001] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BSN 04413001 ======
+[Page 221 | Product 19 | SKU=BSN 04413001] ..listing data => price=$103.24, status=In Stock, discontinued=False, heavy_item=False
+[Page 221 | Product 19 | SKU=BSN 04413001] ..no more info link on card; specs left empty
+[Page 221 | Product 19 | SKU=BSN 04413001] ..normalized price=$103.24, mapped stock status=In Stock
+[Page 221 | Product 19 | SKU=BSN 04413001] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BSN 04414001 ======
+[Page 221 | Product 20 | SKU=BSN 04414001] ..listing data => price=$132.46, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 221 | Product 20 | SKU=BSN 04414001] ..no more info link on card; specs left empty
+[Page 221 | Product 20 | SKU=BSN 04414001] ..normalized price=$132.46, mapped stock status=Long Lead Time
+[Page 221 | Product 20 | SKU=BSN 04414001] ..row prepared for CSV
+
+
+Saved 20 rows from page 221 (total saved: 180).
+
+-------------Page#222----------------
+Proceeding: detected 20 product block(s) on page 222.
+====== PRODUCT # 1 --- SKU=BSN 09046 ======
+[Page 222 | Product 1 | SKU=BSN 09046] ..listing data => price=$3.32, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 1 | SKU=BSN 09046] ..no more info link on card; specs left empty
+[Page 222 | Product 1 | SKU=BSN 09046] ..normalized price=$3.32, mapped stock status=In Stock
+[Page 222 | Product 1 | SKU=BSN 09046] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BSN 09047 ======
+[Page 222 | Product 2 | SKU=BSN 09047] ..listing data => price=$4.32, status=In Stock, discontinued=True, heavy_item=False
+[Page 222 | Product 2 | SKU=BSN 09047] ..no more info link on card; specs left empty
+[Page 222 | Product 2 | SKU=BSN 09047] ..normalized price=$4.32, mapped stock status=In Stock
+[Page 222 | Product 2 | SKU=BSN 09047] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BSN 101313 ======
+[Page 222 | Product 3 | SKU=BSN 101313] ..listing data => price=$39.23, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 3 | SKU=BSN 101313] ..clicking more info
+[Page 222 | Product 3 | SKU=BSN 101313] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=385a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 3 | SKU=BSN 101313] ..opening Product Specifications tab
+[Page 222 | Product 3 | SKU=BSN 101313] ..reading specification key/value rows
+[Page 222 | Product 3 | SKU=BSN 101313] ..making specs json
+[Page 222 | Product 3 | SKU=BSN 101313] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length": "4.88\"", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 222 | Product 3 | SKU=BSN 101313] ..normalized price=$39.23, mapped stock status=In Stock
+[Page 222 | Product 3 | SKU=BSN 101313] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BSN 101314 ======
+[Page 222 | Product 4 | SKU=BSN 101314] ..listing data => price=$43.15, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 4 | SKU=BSN 101314] ..clicking more info
+[Page 222 | Product 4 | SKU=BSN 101314] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=395a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 4 | SKU=BSN 101314] ..opening Product Specifications tab
+[Page 222 | Product 4 | SKU=BSN 101314] ..reading specification key/value rows
+[Page 222 | Product 4 | SKU=BSN 101314] ..making specs json
+[Page 222 | Product 4 | SKU=BSN 101314] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length": "4.88\"", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 222 | Product 4 | SKU=BSN 101314] ..normalized price=$43.15, mapped stock status=Long Lead Time
+[Page 222 | Product 4 | SKU=BSN 101314] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BSN 101319 ======
+[Page 222 | Product 5 | SKU=BSN 101319] ..listing data => price=$41.75, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 5 | SKU=BSN 101319] ..clicking more info
+[Page 222 | Product 5 | SKU=BSN 101319] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=3b5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 5 | SKU=BSN 101319] ..opening Product Specifications tab
+[Page 222 | Product 5 | SKU=BSN 101319] ..reading specification key/value rows
+[Page 222 | Product 5 | SKU=BSN 101319] ..making specs json
+[Page 222 | Product 5 | SKU=BSN 101319] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 222 | Product 5 | SKU=BSN 101319] ..normalized price=$41.75, mapped stock status=In Stock
+[Page 222 | Product 5 | SKU=BSN 101319] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BSN 101320 ======
+[Page 222 | Product 6 | SKU=BSN 101320] ..listing data => price=$41.75, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 6 | SKU=BSN 101320] ..clicking more info
+[Page 222 | Product 6 | SKU=BSN 101320] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=3d5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 6 | SKU=BSN 101320] ..opening Product Specifications tab
+[Page 222 | Product 6 | SKU=BSN 101320] ..reading specification key/value rows
+[Page 222 | Product 6 | SKU=BSN 101320] ..making specs json
+[Page 222 | Product 6 | SKU=BSN 101320] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 222 | Product 6 | SKU=BSN 101320] ..normalized price=$41.75, mapped stock status=In Stock
+[Page 222 | Product 6 | SKU=BSN 101320] ..row prepared for CSV
+
+
+====== PRODUCT # 7 --- SKU=BSN 101321 ======
+[Page 222 | Product 7 | SKU=BSN 101321] ..listing data => price=$41.75, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 7 | SKU=BSN 101321] ..clicking more info
+[Page 222 | Product 7 | SKU=BSN 101321] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=3e5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 7 | SKU=BSN 101321] ..opening Product Specifications tab
+[Page 222 | Product 7 | SKU=BSN 101321] ..reading specification key/value rows
+[Page 222 | Product 7 | SKU=BSN 101321] ..making specs json
+[Page 222 | Product 7 | SKU=BSN 101321] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Large"}
+[Page 222 | Product 7 | SKU=BSN 101321] ..normalized price=$41.75, mapped stock status=Long Lead Time
+[Page 222 | Product 7 | SKU=BSN 101321] ..row prepared for CSV
+
+
+====== PRODUCT # 8 --- SKU=BSN 101325 ======
+[Page 222 | Product 8 | SKU=BSN 101325] ..listing data => price=$40.14, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 8 | SKU=BSN 101325] ..clicking more info
+[Page 222 | Product 8 | SKU=BSN 101325] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=3f5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 8 | SKU=BSN 101325] ..opening Product Specifications tab
+[Page 222 | Product 8 | SKU=BSN 101325] ..reading specification key/value rows
+[Page 222 | Product 8 | SKU=BSN 101325] ..making specs json
+[Page 222 | Product 8 | SKU=BSN 101325] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 222 | Product 8 | SKU=BSN 101325] ..normalized price=$40.14, mapped stock status=Long Lead Time
+[Page 222 | Product 8 | SKU=BSN 101325] ..row prepared for CSV
+
+
+====== PRODUCT # 9 --- SKU=BSN 101326 ======
+[Page 222 | Product 9 | SKU=BSN 101326] ..listing data => price=$40.14, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 9 | SKU=BSN 101326] ..clicking more info
+[Page 222 | Product 9 | SKU=BSN 101326] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=405a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 9 | SKU=BSN 101326] ..opening Product Specifications tab
+[Page 222 | Product 9 | SKU=BSN 101326] ..reading specification key/value rows
+[Page 222 | Product 9 | SKU=BSN 101326] ..making specs json
+[Page 222 | Product 9 | SKU=BSN 101326] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 222 | Product 9 | SKU=BSN 101326] ..normalized price=$40.14, mapped stock status=Long Lead Time
+[Page 222 | Product 9 | SKU=BSN 101326] ..row prepared for CSV
+
+
+====== PRODUCT # 10 --- SKU=BSN 101327 ======
+[Page 222 | Product 10 | SKU=BSN 101327] ..listing data => price=$40.14, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 10 | SKU=BSN 101327] ..clicking more info
+[Page 222 | Product 10 | SKU=BSN 101327] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=415a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 10 | SKU=BSN 101327] ..opening Product Specifications tab
+[Page 222 | Product 10 | SKU=BSN 101327] ..reading specification key/value rows
+[Page 222 | Product 10 | SKU=BSN 101327] ..making specs json
+[Page 222 | Product 10 | SKU=BSN 101327] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Large"}
+[Page 222 | Product 10 | SKU=BSN 101327] ..normalized price=$40.14, mapped stock status=Long Lead Time
+[Page 222 | Product 10 | SKU=BSN 101327] ..row prepared for CSV
+
+
+====== PRODUCT # 11 --- SKU=BSN 101328 ======
+[Page 222 | Product 11 | SKU=BSN 101328] ..listing data => price=$41.49, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 11 | SKU=BSN 101328] ..clicking more info
+[Page 222 | Product 11 | SKU=BSN 101328] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=425a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 11 | SKU=BSN 101328] ..opening Product Specifications tab
+[Page 222 | Product 11 | SKU=BSN 101328] ..reading specification key/value rows
+[Page 222 | Product 11 | SKU=BSN 101328] ..making specs json
+[Page 222 | Product 11 | SKU=BSN 101328] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 222 | Product 11 | SKU=BSN 101328] ..normalized price=$41.49, mapped stock status=In Stock
+[Page 222 | Product 11 | SKU=BSN 101328] ..row prepared for CSV
+
+
+====== PRODUCT # 12 --- SKU=BSN 101329 ======
+[Page 222 | Product 12 | SKU=BSN 101329] ..listing data => price=$41.49, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 12 | SKU=BSN 101329] ..clicking more info
+[Page 222 | Product 12 | SKU=BSN 101329] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=435a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 12 | SKU=BSN 101329] ..opening Product Specifications tab
+[Page 222 | Product 12 | SKU=BSN 101329] ..reading specification key/value rows
+[Page 222 | Product 12 | SKU=BSN 101329] ..making specs json
+[Page 222 | Product 12 | SKU=BSN 101329] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 222 | Product 12 | SKU=BSN 101329] ..normalized price=$41.49, mapped stock status=In Stock
+[Page 222 | Product 12 | SKU=BSN 101329] ..row prepared for CSV
+
+
+====== PRODUCT # 13 --- SKU=BSN 101330 ======
+[Page 222 | Product 13 | SKU=BSN 101330] ..listing data => price=$41.49, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 13 | SKU=BSN 101330] ..clicking more info
+[Page 222 | Product 13 | SKU=BSN 101330] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=445a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 13 | SKU=BSN 101330] ..opening Product Specifications tab
+[Page 222 | Product 13 | SKU=BSN 101330] ..reading specification key/value rows
+[Page 222 | Product 13 | SKU=BSN 101330] ..making specs json
+[Page 222 | Product 13 | SKU=BSN 101330] ..json made:
+{"Brand": "JOBST", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Large"}
+[Page 222 | Product 13 | SKU=BSN 101330] ..normalized price=$41.49, mapped stock status=Long Lead Time
+[Page 222 | Product 13 | SKU=BSN 101330] ..row prepared for CSV
+
+
+====== PRODUCT # 14 --- SKU=BSN 101331 ======
+[Page 222 | Product 14 | SKU=BSN 101331] ..listing data => price=$57.46, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 14 | SKU=BSN 101331] ..clicking more info
+[Page 222 | Product 14 | SKU=BSN 101331] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=455a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 14 | SKU=BSN 101331] ..opening Product Specifications tab
+[Page 222 | Product 14 | SKU=BSN 101331] ..reading specification key/value rows
+[Page 222 | Product 14 | SKU=BSN 101331] ..making specs json
+[Page 222 | Product 14 | SKU=BSN 101331] ..json made:
+{"Brand": "JOBST", "Band Type": "Silicone Dot Band", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 222 | Product 14 | SKU=BSN 101331] ..normalized price=$57.46, mapped stock status=Long Lead Time
+[Page 222 | Product 14 | SKU=BSN 101331] ..row prepared for CSV
+
+
+====== PRODUCT # 15 --- SKU=BSN 101332 ======
+[Page 222 | Product 15 | SKU=BSN 101332] ..listing data => price=$57.46, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 15 | SKU=BSN 101332] ..clicking more info
+[Page 222 | Product 15 | SKU=BSN 101332] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=465a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 15 | SKU=BSN 101332] ..opening Product Specifications tab
+[Page 222 | Product 15 | SKU=BSN 101332] ..reading specification key/value rows
+[Page 222 | Product 15 | SKU=BSN 101332] ..making specs json
+[Page 222 | Product 15 | SKU=BSN 101332] ..json made:
+{"Brand": "JOBST", "Band Type": "Silicone Dot Band", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 222 | Product 15 | SKU=BSN 101332] ..normalized price=$57.46, mapped stock status=Long Lead Time
+[Page 222 | Product 15 | SKU=BSN 101332] ..row prepared for CSV
+
+
+====== PRODUCT # 16 --- SKU=BSN 101333 ======
+[Page 222 | Product 16 | SKU=BSN 101333] ..listing data => price=$57.46, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 16 | SKU=BSN 101333] ..clicking more info
+[Page 222 | Product 16 | SKU=BSN 101333] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=475a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 16 | SKU=BSN 101333] ..opening Product Specifications tab
+[Page 222 | Product 16 | SKU=BSN 101333] ..reading specification key/value rows
+[Page 222 | Product 16 | SKU=BSN 101333] ..making specs json
+[Page 222 | Product 16 | SKU=BSN 101333] ..json made:
+{"Brand": "JOBST", "Band Type": "Silicone Dot Band", "Color": "Beige", "Compression": "15-20 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Large"}
+[Page 222 | Product 16 | SKU=BSN 101333] ..normalized price=$57.46, mapped stock status=Long Lead Time
+[Page 222 | Product 16 | SKU=BSN 101333] ..row prepared for CSV
+
+
+====== PRODUCT # 17 --- SKU=BSN 101334 ======
+[Page 222 | Product 17 | SKU=BSN 101334] ..listing data => price=$59.76, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 17 | SKU=BSN 101334] ..clicking more info
+[Page 222 | Product 17 | SKU=BSN 101334] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=485a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 17 | SKU=BSN 101334] ..opening Product Specifications tab
+[Page 222 | Product 17 | SKU=BSN 101334] ..reading specification key/value rows
+[Page 222 | Product 17 | SKU=BSN 101334] ..making specs json
+[Page 222 | Product 17 | SKU=BSN 101334] ..json made:
+{"Brand": "JOBST", "Band Type": "Silicone Dot Band", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 222 | Product 17 | SKU=BSN 101334] ..normalized price=$59.76, mapped stock status=Long Lead Time
+[Page 222 | Product 17 | SKU=BSN 101334] ..row prepared for CSV
+
+
+====== PRODUCT # 18 --- SKU=BSN 101335 ======
+[Page 222 | Product 18 | SKU=BSN 101335] ..listing data => price=$59.76, status=In Stock, discontinued=False, heavy_item=False
+[Page 222 | Product 18 | SKU=BSN 101335] ..clicking more info
+[Page 222 | Product 18 | SKU=BSN 101335] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=495a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 18 | SKU=BSN 101335] ..opening Product Specifications tab
+[Page 222 | Product 18 | SKU=BSN 101335] ..reading specification key/value rows
+[Page 222 | Product 18 | SKU=BSN 101335] ..making specs json
+[Page 222 | Product 18 | SKU=BSN 101335] ..json made:
+{"Brand": "JOBST", "Band Type": "Silicone Dot Band", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 222 | Product 18 | SKU=BSN 101335] ..normalized price=$59.76, mapped stock status=In Stock
+[Page 222 | Product 18 | SKU=BSN 101335] ..row prepared for CSV
+
+
+====== PRODUCT # 19 --- SKU=BSN 101336 ======
+[Page 222 | Product 19 | SKU=BSN 101336] ..listing data => price=$59.76, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 19 | SKU=BSN 101336] ..clicking more info
+[Page 222 | Product 19 | SKU=BSN 101336] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=4a5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 19 | SKU=BSN 101336] ..opening Product Specifications tab
+[Page 222 | Product 19 | SKU=BSN 101336] ..reading specification key/value rows
+[Page 222 | Product 19 | SKU=BSN 101336] ..making specs json
+[Page 222 | Product 19 | SKU=BSN 101336] ..json made:
+{"Brand": "JOBST", "Band Type": "Silicone Dot Band", "Color": "Beige", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Each", "Size": "Large"}
+[Page 222 | Product 19 | SKU=BSN 101336] ..normalized price=$59.76, mapped stock status=Long Lead Time
+[Page 222 | Product 19 | SKU=BSN 101336] ..row prepared for CSV
+
+
+====== PRODUCT # 20 --- SKU=BSN 101340 ======
+[Page 222 | Product 20 | SKU=BSN 101340] ..listing data => price=$43.15, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 222 | Product 20 | SKU=BSN 101340] ..clicking more info
+[Page 222 | Product 20 | SKU=BSN 101340] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=4b5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 222 | Product 20 | SKU=BSN 101340] ..opening Product Specifications tab
+[Page 222 | Product 20 | SKU=BSN 101340] ..reading specification key/value rows
+[Page 222 | Product 20 | SKU=BSN 101340] ..making specs json
+[Page 222 | Product 20 | SKU=BSN 101340] ..json made:
+{"Brand": "JOBST", "Color": "Black", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length": "4.88\"", "Length Type": "Long", "Product Type": "Arm Wear", "Quantity": "1 Each", "Size": "Small"}
+[Page 222 | Product 20 | SKU=BSN 101340] ..normalized price=$43.15, mapped stock status=Long Lead Time
+[Page 222 | Product 20 | SKU=BSN 101340] ..row prepared for CSV
+
+
+Saved 20 rows from page 222 (total saved: 200).
+
+-------------Page#223----------------
+Proceeding: detected 20 product block(s) on page 223.
+====== PRODUCT # 1 --- SKU=BSN 101358 ======
+[Page 223 | Product 1 | SKU=BSN 101358] ..listing data => price=$41.75, status=In Stock, discontinued=False, heavy_item=False
+[Page 223 | Product 1 | SKU=BSN 101358] ..clicking more info
+[Page 223 | Product 1 | SKU=BSN 101358] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=4e5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 223 | Product 1 | SKU=BSN 101358] ..opening Product Specifications tab
+[Page 223 | Product 1 | SKU=BSN 101358] ..reading specification key/value rows
+[Page 223 | Product 1 | SKU=BSN 101358] ..making specs json
+[Page 223 | Product 1 | SKU=BSN 101358] ..json made:
+{"Brand": "JOBST", "Color": "Black", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Small"}
+[Page 223 | Product 1 | SKU=BSN 101358] ..normalized price=$41.75, mapped stock status=In Stock
+[Page 223 | Product 1 | SKU=BSN 101358] ..row prepared for CSV
+
+
+====== PRODUCT # 2 --- SKU=BSN 101359 ======
+[Page 223 | Product 2 | SKU=BSN 101359] ..listing data => price=$41.75, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 223 | Product 2 | SKU=BSN 101359] ..clicking more info
+[Page 223 | Product 2 | SKU=BSN 101359] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=4f5a4905-1554-ef11-bfe2-002248ae64e6
+[Page 223 | Product 2 | SKU=BSN 101359] ..opening Product Specifications tab
+[Page 223 | Product 2 | SKU=BSN 101359] ..reading specification key/value rows
+[Page 223 | Product 2 | SKU=BSN 101359] ..making specs json
+[Page 223 | Product 2 | SKU=BSN 101359] ..json made:
+{"Brand": "JOBST", "Color": "Black", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Medium"}
+[Page 223 | Product 2 | SKU=BSN 101359] ..normalized price=$41.75, mapped stock status=Long Lead Time
+[Page 223 | Product 2 | SKU=BSN 101359] ..row prepared for CSV
+
+
+====== PRODUCT # 3 --- SKU=BSN 101360 ======
+[Page 223 | Product 3 | SKU=BSN 101360] ..listing data => price=$41.75, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 223 | Product 3 | SKU=BSN 101360] ..clicking more info
+[Page 223 | Product 3 | SKU=BSN 101360] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=505a4905-1554-ef11-bfe2-002248ae64e6
+[Page 223 | Product 3 | SKU=BSN 101360] ..opening Product Specifications tab
+[Page 223 | Product 3 | SKU=BSN 101360] ..reading specification key/value rows
+[Page 223 | Product 3 | SKU=BSN 101360] ..making specs json
+[Page 223 | Product 3 | SKU=BSN 101360] ..json made:
+{"Brand": "JOBST", "Color": "Black", "Compression": "20-30 mmHg", "Gender": "Unisex", "Length Type": "Regular", "Product Type": "Hand & Wrist Wear", "Quantity": "1 Pair", "Size": "Large"}
+[Page 223 | Product 3 | SKU=BSN 101360] ..normalized price=$41.75, mapped stock status=Long Lead Time
+[Page 223 | Product 3 | SKU=BSN 101360] ..row prepared for CSV
+
+
+====== PRODUCT # 4 --- SKU=BSN 105200 ======
+[Page 223 | Product 4 | SKU=BSN 105200] ..listing data => price=$11.76, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 223 | Product 4 | SKU=BSN 105200] ..no more info link on card; specs left empty
+[Page 223 | Product 4 | SKU=BSN 105200] ..normalized price=$11.76, mapped stock status=Long Lead Time
+[Page 223 | Product 4 | SKU=BSN 105200] ..row prepared for CSV
+
+
+====== PRODUCT # 5 --- SKU=BSN 105300 ======
+[Page 223 | Product 5 | SKU=BSN 105300] ..listing data => price=$12.89, status=Specialty Product - Order Created Upon Submission, discontinued=False, heavy_item=False
+[Page 223 | Product 5 | SKU=BSN 105300] ..no more info link on card; specs left empty
+[Page 223 | Product 5 | SKU=BSN 105300] ..normalized price=$12.89, mapped stock status=Long Lead Time
+[Page 223 | Product 5 | SKU=BSN 105300] ..row prepared for CSV
+
+
+====== PRODUCT # 6 --- SKU=BSN 110449 ======
+[Page 223 | Product 6 | SKU=BSN 110449] ..listing data => price=$15.79, status=In Stock, discontinued=True, heavy_item=False
+[Page 223 | Product 6 | SKU=BSN 110449] ..clicking more info
+[Page 223 | Product 6 | SKU=BSN 110449] ..product details page opened: https://orders.bestbuymedical.ca/product.html?InventoryID=635a4905-1554-ef11-bfe2-002248ae64e6

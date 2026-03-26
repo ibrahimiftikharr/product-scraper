@@ -2,6 +2,7 @@ import csv
 import json
 import os
 import shutil
+import argparse
 from collections import OrderedDict
 
 
@@ -86,9 +87,30 @@ def transform_csv_to_json(input_csv: str, output_json: str | None = None, copy_t
 
 
 if __name__ == "__main__":
-    # Minimal CLI mode for ad-hoc manual runs.
-    default_csv = os.path.join(os.path.dirname(__file__), "bestBuy_products.csv")
+    parser = argparse.ArgumentParser(description="Convert scraper CSV into SKU-grouped JSON.")
+    parser.add_argument(
+        "input_csv",
+        nargs="?",
+        default=os.path.join(os.path.dirname(__file__), "bestBuy_products.csv"),
+        help="Input CSV path (default: ./bestBuy_products.csv)",
+    )
+    parser.add_argument(
+        "--output-json",
+        default=None,
+        help="Optional explicit output JSON path.",
+    )
+    parser.add_argument(
+        "--no-copy-downloads",
+        action="store_true",
+        help="Disable automatic copy of JSON output to Downloads.",
+    )
+    args = parser.parse_args()
+
     try:
-        transform_csv_to_json(default_csv)
+        transform_csv_to_json(
+            input_csv=args.input_csv,
+            output_json=args.output_json,
+            copy_to_downloads=not args.no_copy_downloads,
+        )
     except Exception as e:
         print(f"csv_to_json: failed: {e}")
