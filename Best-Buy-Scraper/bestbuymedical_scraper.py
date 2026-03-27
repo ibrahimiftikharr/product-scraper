@@ -65,8 +65,8 @@ def start_console_file_logging(log_filename, log_dir=None):
 
     log_path = os.path.join(log_dir, log_filename)
 
-    # Line buffering keeps logs visible in near-real-time in both console and file.
-    log_file = open(log_path, "w", encoding="utf-8", buffering=1)
+    # Append mode preserves prior logs across restarts.
+    log_file = open(log_path, "a", encoding="utf-8", buffering=1)
 
     original_stdout = sys.stdout
     original_stderr = sys.stderr
@@ -74,7 +74,9 @@ def start_console_file_logging(log_filename, log_dir=None):
     sys.stdout = TeeStream(original_stdout, log_file)
     sys.stderr = TeeStream(original_stderr, log_file)
 
+    print("\n" + "=" * 80)
     print(f"📝 Logging to file: {log_path}")
+    print(f"🕒 Session started at: {datetime.now().isoformat(timespec='seconds')}")
     return log_path, log_file, original_stdout, original_stderr
 
 
@@ -276,8 +278,12 @@ def save_checkpoint(checkpoint_path, next_page, total_rows_saved, pages_scraped)
         "updated_at": datetime.now().isoformat(timespec="seconds"),
     }
     try:
-        with open(checkpoint_path, "w", encoding="utf-8") as f:
+        temp_path = f"{checkpoint_path}.tmp"
+        with open(temp_path, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(temp_path, checkpoint_path)
     except Exception as e:
         print(f"Warning: failed to save checkpoint: {e}")
 
@@ -866,20 +872,23 @@ def make_product_id(prod):
     return "HASH:" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
 
 
-def main(output_csv, checkpoint_filename, start_page=1, end_page=None):
+def main(output_csv, checkpoint_filename, start_page=1, end_page=None, force_reset=False):
     """Run the full scrape: login, search, paginate, enrich, validate, write CSV."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     checkpoint_path = os.path.join(script_dir, checkpoint_filename)
-    checkpoint = load_checkpoint(checkpoint_path)
-
-    resume_mode = bool(checkpoint and os.path.exists(output_csv))
-    if resume_mode:
-        print(f"🔁 Resume mode enabled using checkpoint: {checkpoint_path}")
-    else:
-        # Fresh run: clear old checkpoint and reset output CSV.
+    if force_reset:
+        print("⚠️ Force reset enabled: clearing checkpoint and CSV before starting.")
         clear_checkpoint(checkpoint_path)
         if os.path.exists(output_csv):
             os.remove(output_csv)
+
+    checkpoint = load_checkpoint(checkpoint_path)
+    csv_exists = os.path.exists(output_csv) and os.path.getsize(output_csv) > 0
+    resume_mode = bool(checkpoint)
+    if resume_mode:
+        print(f"🔁 Resume mode enabled using checkpoint: {checkpoint_path}")
+    elif csv_exists:
+        print("ℹ️ Existing CSV found without checkpoint. Keeping CSV and starting from requested start page.")
 
     with sync_playwright() as p:
         try:
@@ -1020,7 +1029,7 @@ def main(output_csv, checkpoint_filename, start_page=1, end_page=None):
             print("Products Found and Scraping started")
 
         # Step 4: Initialize counters, helper page for product details, and state.
-        total_rows_saved = count_existing_csv_rows(output_csv) if resume_mode else 0
+        total_rows_saved = count_existing_csv_rows(output_csv) if csv_exists else 0
         pages_scraped = int((checkpoint or {}).get("pages_scraped", 0)) if resume_mode else 0
         write_header_first_time = not os.path.exists(output_csv) or os.path.getsize(output_csv) == 0
         page_num = int((checkpoint or {}).get("next_page", start_page)) if resume_mode else start_page
@@ -1028,7 +1037,7 @@ def main(output_csv, checkpoint_filename, start_page=1, end_page=None):
         detail_page = context.new_page()
 
         # Dedupe set (across the entire run) and counters
-        seen_product_ids = load_seen_product_ids_from_csv(output_csv) if resume_mode else set()
+        seen_product_ids = load_seen_product_ids_from_csv(output_csv) if csv_exists else set()
         duplicates_skipped = 0
         all_deviations = []
         hit_product_limit = False
@@ -1258,7 +1267,7 @@ def main(output_csv, checkpoint_filename, start_page=1, end_page=None):
         browser.close()
         return output_csv
 
-def run_scraper(start_page=1, end_page=None):
+def run_scraper(start_page=1, end_page=None, force_reset=False):
     """Wrapper for one full run, plus post-run notifications and local copy."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     artifact_copy_dir = resolve_artifact_copy_dir(script_dir)
@@ -1277,6 +1286,7 @@ def run_scraper(start_page=1, end_page=None):
             checkpoint_filename=artifact_names["checkpoint"],
             start_page=start_page,
             end_page=end_page,
+            force_reset=force_reset,
         )
 
         if scraped_file and os.path.exists(scraped_file):
@@ -1339,6 +1349,11 @@ def parse_args():
         default=None,
         help="End page number inclusive (default: scrape to last page)",
     )
+    parser.add_argument(
+        "--reset",
+        action="store_true",
+        help="Clear existing checkpoint/CSV for this range before starting.",
+    )
     args = parser.parse_args()
 
     if args.start_page < 1:
@@ -1352,4 +1367,8 @@ def parse_args():
 
 if __name__ == "__main__":
     cli_args = parse_args()
-    run_scraper(start_page=cli_args.start_page, end_page=cli_args.end_page)
+    run_scraper(
+        start_page=cli_args.start_page,
+        end_page=cli_args.end_page,
+        force_reset=cli_args.reset,
+    )
